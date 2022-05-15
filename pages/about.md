@@ -1,7 +1,7 @@
 ---
 layout              : page
 show_meta           : false
-title               : "History & Vision"
+title               : "Our Mission"
 permalink           : "/about/"
 ---
 
