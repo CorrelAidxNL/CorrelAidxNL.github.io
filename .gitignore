@@ -6,3 +6,6 @@ _site
 .sass-cache
 Gemfile.lock
 .Rproj.user
+
+#PyCharm project files
+/.idea/
