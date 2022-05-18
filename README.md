@@ -38,6 +38,13 @@ The basic recipe for making a change is as follows.
 
 Details about how to add certain standard content should be added here.
 
+### General Tips
+Sometimes websites don't work as you expect. Here are some tips.
+* __Cache__. To avoid continuously downloading the same files, browsers make extensive use of caching.
+This means that a change to an existing file will not be immediately visible, 
+since the browser will simply serve the old version of that file from the cache rather than downloading the new one.
+To see you changes when this happens, do a hard refresh of the page (e.g. ctrl-shirt-r for Firefox on Windows.)
+
 ### Getting Started
 Certain standard items from the data science toolkit are assumed here.
 * GitHub account with relevant access rights.
