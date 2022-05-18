@@ -44,6 +44,9 @@ urlimg: 'https://correlaid.nl/feeling-responsive/images/'
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
+# icon, .e.g. used in the navbar
+icon: "CorrelAid X-Icon_white.svg"
+
 # Plugins
 plugins:
     - jekyll-asciidoc
