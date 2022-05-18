@@ -33,7 +33,8 @@ If it is your first time updating the website, please first check the section _G
 The basic recipe for making a change is as follows.
 1. Create a new branch on this repo and checkout this new branch locally.
 2. Make the desired changes and test locally, i.e. build and deploy on _localhost_.
-3. Push the changes to this repo and merge to master branch.
+The cmd line command for this is "bundle exec jekyll serve --config _config.yml,_config_dev.yml".
+3. Push the changes to origin and merge to master branch.
 4. Check that your changes are visible in the live website.
 
 Details about how to add certain standard content should be added here.
@@ -44,6 +45,10 @@ Sometimes websites don't work as you expect. Here are some tips.
 This means that a change to an existing file will not be immediately visible, 
 since the browser will simply serve the old version of that file from the cache rather than downloading the new one.
 To see you changes when this happens, do a hard refresh of the page (e.g. ctrl-shirt-r for Firefox on Windows.)
+* __Local config__. There is a different config file for local deployment.
+Make sure you use the full command listed in the _Updating the Website_ section listed above.
+This extends the basic "bundle exec jekyll serve" command to pick the development config file.
+Using the basic command can create problems finding new image files, for example.
 
 ### Getting Started
 Certain standard items from the data science toolkit are assumed here.
