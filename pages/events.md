@@ -5,11 +5,13 @@ title               : "Events"
 permalink           : "/events/"
 ---
 
+Below you can find a list of our past and upcoming events. If you are interested in presenting your or your NGOs work at one of our future events, please get in touch with [Fabian](mailto:fabian@correlaid.nl).
+
 ## Upcoming Events
-We announce upcoming events on [Meetup](https://www.meetup.com/CorrelAid-Netherlands/), [Twitter](https://twitter.com/CorrelAidxNL), [Facebook](https://www.facebook.com/CorrelAidXNetherlands), [LinkedIn](https://www.linkedin.com/company/correlaid-x-netherlands/), and through our [Newsletter](https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff), so to be sure to follow us there.
+We announce upcoming events on [Meetup](https://www.meetup.com/CorrelAid-Netherlands/), [Twitter](https://twitter.com/CorrelAidxNL), [Facebook](https://www.facebook.com/CorrelAidXNetherlands), [LinkedIn](https://www.linkedin.com/company/correlaid-netherlands/), and through our [Newsletter](https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff), so to be sure to follow us there.
 
 ## Past Events
-We have started to record our [online events](https://www.meetup.com/CorrelAid-Netherlands/) and upload them to our [YouTube channel](https://www.youtube.com/channel/UCRBedMwdhH9kWFf3tOmekWw). The events usually feature one or two speakers giving a short talk, with discussion afterwards. We occasionally also have community events, where people from the CorrrelAid Netherlands community can present their work, or events with multiple NGOs.
+We record our [online events](https://www.meetup.com/CorrelAid-Netherlands/) and upload them to our [YouTube channel](https://www.youtube.com/channel/UCRBedMwdhH9kWFf3tOmekWw). The events usually feature one or two speakers giving a short talk, with discussion afterwards. We occasionally also have community events, where people from the CorrrelAid Netherlands community can present their work, or events with multiple NGOs.
 
 Here is a list of previous talks that we recorded:
 
@@ -30,5 +32,3 @@ Here is a list of previous community or multiple NGO events that we recorded:
   - Data science experiences at CorrelAid Netherlands [[Link](https://www.youtube.com/watch?v=j8KrtC17O-A)]
   - Using data to conserve nature and stop wildlife crime [[Link](https://www.youtube.com/watch?v=S8a0g1AZPak)]
   - Data science in the wild: Four lightning talks [[Link](https://www.youtube.com/watch?v=s7i1XwSVCAs)]
-
-If you are interested in presenting your or your NGOs work at one of our future events, please get in touch with [Fabian](mailto:fabian@correlaid.nl).

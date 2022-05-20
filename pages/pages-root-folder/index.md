@@ -17,7 +17,7 @@ widget2:
   title: "Getting involved"
   url: '/getting-involved'
   image: widget-1-302x182.jpg
-  text: 'Do you want to apply your data science skills to solve a real-world problem? Are you part of an NGO that wants to use data science to operate more efficiently and effectively? Then you are right here!'
+  text: 'Do you want to apply your data science skills to solve a real-world problem? Are you part of an NGO that wants to use data science to operate more efficiently and effectively? Then get in touch!'
   
 widget3:
   title: "Events"

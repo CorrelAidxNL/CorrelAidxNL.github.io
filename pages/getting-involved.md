@@ -6,7 +6,9 @@ permalink           : "/getting-involved/"
 ---
 
 ### As a volunteer
-Do you want to apply your data science skills to a real world problem? Then CorrelAid Netherlands is for you! In teams of usually 1-4 people, we help NGOs gain insight into their own data and use the results. We announce projects on [Twitter](https://twitter.com/CorrelAidxNL), [Facebook](https://www.facebook.com/CorrelAidXNetherlands), [LinkedIn](https://www.linkedin.com/company/correlaid-x-netherlands/), through our [Newsletter](https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff), and on Slack, so be sure to follow us there. If you want to join our community on Slack, please fill out [this form](https://forms.gle/Y8E3jsW2FBmCfq9h7). Afterwards, we will contact you to have a chat and invite you. For further details, please contact Andrew.
+Do you want to apply your data science skills to a real world problem? Then CorrelAid Netherlands is for you! In teams of usually 1-4 people, we help NGOs gain insight into their own data and use the results.
+
+We announce projects on [Twitter](https://twitter.com/CorrelAidxNL), [Facebook](https://www.facebook.com/CorrelAidXNetherlands), [LinkedIn](https://www.linkedin.com/company/correlaid-x-netherlands/), through our [Newsletter](https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff), and on Slack, so be sure to follow us there. If you want to join our community on Slack, please fill out [this form](https://forms.gle/Y8E3jsW2FBmCfq9h7). Afterwards, we will contact you to have a chat and invite you. For further details, please contact <a href="mailto:andrew@correlaid.nl">Andrew</a>.
 
 Are you working on an interesting data project already and want to share your results with a wide audience? Is your organisation using data in innovative ways to tackle difficult societal challenges? Do you have skills that you want to teach others? Then write a blog post for us, speak at one of our Meetups, or teach a workshop. For details, please contact <a href="mailto:fabian@correlaid.nl">Fabian</a>.
 
