@@ -18,8 +18,8 @@
   class: icon-facebook
   title: ""
 
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
+- name: LinkedIn
+  url: https://www.linkedin.com/company/correlaid-netherlands/
+  class: icon-linkedin
+  title: ""
 
