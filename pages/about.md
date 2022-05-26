@@ -1,27 +1,26 @@
 ---
 layout              : page
 show_meta           : false
-title               : "Our Mission"
+title               : "About"
 permalink           : "/about/"
 ---
 
-In 2018, the Dutch chapter of CorrelAid started with a small number of people excited to use their data skills to advance the social good. In 2020, Andrew, Fabian, and Yiran [officially founded](/stichting-correlaid) the Stichting CorrelAid Nederland.
+CorrelAid Netherlands is a nonprofit organization that connects data scientists with organizations that do good. We have a network of over 300 data scientists in the Netherlands and over 1500 abroad that are eager to volunteer their time and expertise to help nonprofits with their data challenges. We started in 2018 as the Dutch chapter of [CorrelAid](https://correlaid.org/). In 2020, Andrew, Fabian, and Yiran [officially founded](/stichting-correlaid) the Stichting CorrelAid Nederland.
 
-Together with a dedicated and hard working core team, they are busy building a network of data scientists and data enthusiasts across the Netherlands that are eager to help organizations that advance the social good.
+Our core activity is to engage in 3-6 month long projects where a team of our data scientists works with an organization pro bono. We have completed a [number of projects](/projects) successfully since our inception. We also organize [events](/events) such as hackathons and meetups.
 
-Our core goals are three-fold:
+# Goals
+Our goals are three-fold:
 
-1. Help organizations that advance the social good, pro-bono.
-2. Train data scientists and data enthusiasts through working on real problems.
-3. Create a thriving community of data scientists in the Netherlands.
+1. To create a diverse community of data scientists in the Netherlands who want to use their skills to advance the social good. We want to create a platform where collaborations can emerge organically, and where our volunteers can learn from each other and help each other.
 
-Are you an NGO that is interested in what we have to offer? Then head over [here](/getting-involved) and get in touch. You can find an overview of our past and present projects [here](/projects).
+2. To create impact by working with nonprofit organizations, utilizing the power of data and data science to further their societal contribution. We are providing a high-quality volunteer data science workforce and aim to become a well-known part of the Dutch non-profit ecosystem.
 
-Are you a data scientist interested in applying your skills and joining our community? Then head over [here](/getting-involved) and have a chat with us!
+3. To empower the nonprofit sector to work with their own data. Systematically relying on skilled volunteers for data challenges is not sustainable. The projects give organizations a taste of what is possible with data and give us an opportunity to facilitate the continuation of the organization’s data journey after the project is done.
 
-Do you want to see what events we have coming up? Then head over [here](/events).
+Are you an NGO that is interested in what we have to offer? Then head over [here](/getting-involved) and get in touch! Are you a data scientist interested in applying your skills and joining our community? Then head over [here](/getting-involved) and have a chat with us! Do you want to see what events we have coming up? Then head over [here](/events).
 
-## Core Team
+# Core Team
 
 ### Andrew Sutjahjo | Chairman
 <!-- <img class="profile" src="/images/nl-andrew.jpg" /> -->
