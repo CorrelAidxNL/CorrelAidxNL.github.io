@@ -28,6 +28,10 @@ Below you can find a list of our past and ongoing projects with organizations th
 ### Macheo
 [Macheo](https://macheo.ngo/) is a charity operating in Thika, Kenya, trying to help children in the urban slums and rural areas surrounding the city. Macheo does this by providing interventions to children or their parents which can range from providing school lunches to kids all the way to monetary help for parents to start a business. Their main tool of assessment is the Child Status Index, which they use to determine children’s needs as well as the effectiveness of Macheo’s interventions. The goals of this project were twofold: To understand and assess Macheo’s impact, and to help Macheo improve this impact in the future by using insights from the data to improve their efficiency and effectiveness.
 
+### G-Moji
+[G-Moji](https://g-moji.garage2020.nl/en/homepage/) is a mental health self-help app that promotes digital wellbeing for youngsters, funded by many healthcare institutions and spearheaded by Garage 2020. The pilot study for this app measured diverse data from phone-usage such as movement, app-usage, and light intensity of their surroundings. It also polled users daily to describe their mood for the day using one of 14 emojis. The initial goal of the project was to see if it is possible to predict the emoji label using the phone usage data so that targeted interventions could be made. After prototyping and iterating we concluded that there was not much gain from using ML on phone usage data. 
+
+
 ### Simavi
 Founded in 1925, [Simavi](https://simavi.nl/en) encourages girls and women to claim their right to equality and basic needs, resulting in a physically, mentally, and socially healthier society for everyone. Their work is women-centred, rights-based, and builds lasting change. They start and facilitate projects over two broad programmes: water, sanitation and hygiene (WASH) and sexual and reproductive health and rights (SRHR). This project’s goal was to analyze baseline and midline surveys that measure the impact of their WASH programme in 3 different countries, specifically focusing on Gender Equality and Social Inclusion.
 
