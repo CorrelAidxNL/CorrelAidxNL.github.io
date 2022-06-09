@@ -6,7 +6,8 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: CorrelAid-Banner.png
+  title: Good causes. Better effects
+  image_fullwidth: Correlaid-banner.png
 widget1:
   title: "Mission"
   url: '/about'
