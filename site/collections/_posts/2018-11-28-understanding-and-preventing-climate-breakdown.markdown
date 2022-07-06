@@ -1,12 +1,11 @@
 ---
 date: 2018-11-12 12:01:35
-title: Understanding and Preventing Climate Breakdown
+title: Understanding & Preventing Climate Breakdown
 description: >-
-  Bring to the table win-win survival strategies to ensure proactive domination.
-  At the end of the day, going forward.
+  Intense workshop on the climate emergency and climate action.
 tags:
-  - life
-  - story
+  - climate change
+  - action
 image: /images/post-2.jpg
 ---
 
