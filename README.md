@@ -96,3 +96,12 @@ Run the website:
 ```bash
 $ npm start
 ```
+
+## Remaining Theme Migration Items
+
+To be deleted as and when completed. 
+There items are specific to the change from Feeling Responsive to Vonge.
+
+* Add Events page (with link in menubar)
+* Add YouTube link (same as Twitter, Facebook etc)
+* Footer should reference Correlaid Netherlands, with Vonge Template by Cloud Cannon at the end.
