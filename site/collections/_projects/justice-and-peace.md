@@ -2,7 +2,7 @@
 date: 2021-01-08 06:20:35 +0300
 title: Justice and Peace
 subtitle: Designs and implements a data environment for the onboarding process of groups and newcomers that participate in Samen Hier.
-image: "/images/project-7.jpg"
+image: "/images/samen_hier_logo.jpg"
 ---
 
 <a href="https://justiceandpeace.nl/en/">Justice and Peace Netherlands</a> is a non-profit organization based in The Hague that is dedicated to defending and promoting respect for human rights and social justice, worldwide and in the Netherlands. They work to empower change on the local level for human rights, adapting to the needs of the present and future, and most importantly, through working together.
