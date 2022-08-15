@@ -14,3 +14,7 @@ social:
       icon: "Facebook",
       link: "https://www.facebook.com/CorrelAidXNetherlands/",
     }
+  - { icon: "Meetup",
+      name: "Calendar",
+      link: "https://www.meetup.com/correlaid-netherlands/"
+  }
