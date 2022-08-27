@@ -1,11 +1,10 @@
 _site
-.bundle
-.DS_Store
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
-.sass-cache
-Gemfile.lock
-.Rproj.user
-
-#PyCharm project files
+vendor
+node_modules
+bookshop-live.js
+.DS_Store
+# PyCharm project files
 /.idea/

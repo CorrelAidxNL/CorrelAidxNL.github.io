@@ -1,0 +1,20 @@
+---
+#-------------------------------
+# Social Links
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+  - { icon: "Twitter", link: "https://twitter.com/CorrelAidxNL" }
+  - { icon: "YouTube", link: "https://www.youtube.com/channel/UCRBedMwdhH9kWFf3tOmekWw" }
+  - {
+      icon: "LinkedIn",
+      link: "https://www.linkedin.com/company/correlaid-x-netherlands/",
+    }
+  - {
+      icon: "Facebook",
+      link: "https://www.facebook.com/CorrelAidXNetherlands/",
+    }
+  - { icon: "Meetup",
+      name: "Calendar",
+      link: "https://www.meetup.com/correlaid-netherlands/"
+  }

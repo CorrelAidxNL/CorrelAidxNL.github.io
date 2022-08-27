@@ -1,0 +1,13 @@
+footer_menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Blog'
+      url: '/blog/'
+
+copyright_text_html: >-
+  <p> 2022 &copy; CorrelAid Netherlands using the Vonge template by <a href="https://cloudcannon.com/community/themes/vonge/">CloudCannon</a>.</p>
