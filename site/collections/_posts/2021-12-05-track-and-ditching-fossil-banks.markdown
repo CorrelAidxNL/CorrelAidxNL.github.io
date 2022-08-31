@@ -4,8 +4,8 @@ title: Tracking and Ditching Fossil Banks
 description: >-
   Insightful talk and conversation with Johan Frijns, director of BankTrack.
 tags:
-  - banks
-  - fossil
+  - banking
+  - climate
 image: /images/2021_banktrack_youtube_thumbnail.jpg
 ---
 

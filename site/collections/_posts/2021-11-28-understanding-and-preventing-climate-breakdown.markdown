@@ -4,7 +4,7 @@ title: Understanding & Preventing Climate Breakdown
 description: >-
   Intense workshop on the climate emergency and climate action.
 tags:
-  - climate change
+  - climate
   - action
 image: /images/2021_climatebreakdown_youtube_thumbnail.jpg
 ---
