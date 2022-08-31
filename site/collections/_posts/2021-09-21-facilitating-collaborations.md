@@ -3,6 +3,7 @@ date: 2021-09-21 12:01:35
 title: Streamlining scientific collaborations
 description: >-
   How one organization is rethinking scientific collaborations.
+author: Mehrzad
 tags:
   - collaborations
   - global
