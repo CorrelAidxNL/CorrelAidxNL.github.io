@@ -4,6 +4,8 @@ title: CorrelAid Netherlands YouTube Channel
 description: CorrelAid Netherlands goes YouTube
 author: Fabian
 tags:
+  - online
+  - organisation
 image: /images/correlaid-youtube-thumb.png
 ---
 

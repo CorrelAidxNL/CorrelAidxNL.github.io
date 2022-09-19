@@ -7,6 +7,7 @@ author: Mehrzad
 tags:
   - collaborations
   - global
+  - online
 image: /images/facilitating-collaborations-header.png
 ---
 

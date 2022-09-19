@@ -5,6 +5,7 @@ description: Great synergy at our event with three Dutch environmental NGOs"
 author: "Mehrzad"
 tags: 
   - nature
+  - online
 image: /images/elephant-header.png
 ---
   

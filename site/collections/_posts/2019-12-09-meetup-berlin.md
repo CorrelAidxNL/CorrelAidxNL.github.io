@@ -3,6 +3,8 @@ title: "Opening the doors to our Data4Good Meetup 2019 on Open Data"
 description: "Magic happens when you put socially thinking data scientists together in a space for a weekend"
 author: Andrew
 image: /images/meetup-berlin-thumb.jpg
+tags:
+  - in-person
 ---
 
 Over the weekend of 29 Nov to 1 Dec 2019, CorrelAid held the annual meetup for its network of data scientists who want to use their skills for Societal Good - this year it took place in Berlin. This meetup for volunteers, by volunteers had us teaching ourselves skills, sharing success stories and lessons learned, and hacking our way through open data sources.  

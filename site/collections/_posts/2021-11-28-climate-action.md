@@ -6,6 +6,7 @@ description: >-
 tags:
   - climate
   - action
+  - online
 image: /images/stripes-global-thumb.png
 ---
 The unusually stable climate of the past 10,000 years has enabled human agriculture and civilization. And without further intervention, [at least another 10,000 years](https://www.science.org/doi/abs/10.1126/science.1076120) of stability would have ensued. Yet starting in the 1950s, in what has been dubbed [“The Great Acceleration”](https://journals.sagepub.com/doi/10.1177/2053019614564785), humans dramatically grew their population and their economies, becoming a [planetary-scale geological force](https://www.goodreads.com/book/show/36004703-the-human-planet) that continues to exert enormous pressure on the Earth system. The consequences of this are becoming increasingly apparent. But they could become much worse.

@@ -3,6 +3,8 @@ title: "Founding Stichting CorrelAid Nederland"
 description: "On the 13th of January 2020 Stichting Correlaid Nederland became official"
 author: Andrew
 image: /images/correlaid-stichting-thumb.jpg
+tags:
+  - organisation
 ---
 
 On the 13th of January 2020 Stichting Correlaid Nederland was founded by Fabian Dablander, Andrew Sutjahjo, and Yiran Guo. This marks an important milestone for us.

@@ -3,6 +3,9 @@ title: "Virtual Get Together: Bingo and Speed Dating"
 description: Combining Bingo with speed dating for a virtual get together is a lot of fun!
 author: Fabian
 image: /images/bingo-town-thumb.png
+tags:
+  - online
+  - social
 ---
 
 While a passion for data science and a sensitivity for societal problems unites all our CorrelAid Netherland members, every one of them has their own unique experiences and stories to tell. For example, one member helped set a world record in knitting; one was nearly run-over by [the cellist Yo-Yo Ma](https://www.youtube.com/watch?v=1prweT95Mo0); somebody, believe it or not, hates cake; and another member has sewn around 100 teddy bears.

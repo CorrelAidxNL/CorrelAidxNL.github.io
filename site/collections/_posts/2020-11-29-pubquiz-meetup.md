@@ -3,6 +3,9 @@ title: "Meetup and Data Science Pub Quiz"
 description: "Fun and excitement at our first virtual CorrelAid Netherlands meetup"
 author: Fabian
 image: /images/pubquiz-thumb.png
+tags:
+  - online
+  - social
 ---
 Did you know that Ada Lovelace is considered the first computer programmer, and not Charles Babbage? That the first computer mouse was made out of wood, not plastic? That Onyx is software, and not a pokemon? Or that there are about 14 times more Python packages than there are R packages?
 
