@@ -4,6 +4,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Get Involved'
       url: '/getinvolved/'
     - title: 'Projects'
@@ -12,8 +14,6 @@ menu__settings:
       url: '/blog/'
     - title: 'Pages'
       submenu:
-      - url: '/about/'
-        title: 'About'
       - url: '/anbi/'
         title: 'ANBI'
       - url: '/contact'
