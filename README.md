@@ -55,6 +55,10 @@ Sometimes websites don't work as you expect, welcome to the world of front end d
   This means that a change to an existing file will not be immediately visible,
   since the browser will simply serve the old version of that file from the cache rather than downloading the new one.
   To see you changes when this happens, do a hard refresh of the page (e.g. ctrl-shirt-r for Firefox on Windows.)
+- **Tags**. The website allows you to assign tags to posts which are then displayed with the post as a link.
+  This allows users to easily navigate to other posts on the same topic.
+  However, the system automatically capitalises the first letter and doesn't support spaces.
+  Please only use single word tags to avoid broken links or strange formatting.
 
 ### Getting Started
 

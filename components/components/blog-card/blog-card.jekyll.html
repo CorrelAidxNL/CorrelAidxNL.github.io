@@ -34,7 +34,13 @@
           <img loading="lazy" src="{{ site.data.author.author_image }}" alt="{{ site.data.author.author_name }}">
         </div>
         <div class="{{c}}__info">
-          <div class="{{c}}__author-name">{{ site.data.author.author_name }}</div>
+          <div class="{{c}}__author-name">
+            {% if include.post.author %}
+              {{ include.post.author }}
+            {% else %}
+              {{ site.data.author.author_name }}
+            {% endif %}
+          </div>
           <span class="{{c}}__date"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date_to_string
               }}</time></span>
         </div>
