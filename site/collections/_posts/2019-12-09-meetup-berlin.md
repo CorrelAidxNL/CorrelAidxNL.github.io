@@ -3,6 +3,7 @@ title: "Opening the doors to our Data4Good Meetup 2019 on Open Data"
 description: "Magic happens when you put socially thinking data scientists together in a space for a weekend"
 author: Andrew
 image: /images/meetup-berlin-thumb.jpg
+no_footer: true
 tags:
   - in-person
 ---

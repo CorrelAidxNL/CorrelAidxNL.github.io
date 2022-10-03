@@ -3,6 +3,7 @@ title: "Founding Stichting CorrelAid Nederland"
 description: "On the 13th of January 2020 Stichting Correlaid Nederland became official"
 author: Andrew
 image: /images/correlaid-stichting-thumb.jpg
+no_footer: true
 tags:
   - organisation
 ---
