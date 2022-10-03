@@ -60,9 +60,10 @@ layout: default
     <div class="post__content">
       {{ content }}
     </div>
-
+    {% unless page.no_footer %}
+      {% include event_footer.html %}
+    {% endunless %}
     {% include share.html %}
-
   </article>
 </div>
 <!-- end post -->
