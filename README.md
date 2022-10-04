@@ -103,9 +103,7 @@ $ npm start
 
 ## Remaining Theme Migration Items
 
-To be deleted as and when completed. 
-There items are specific to the change from Feeling Responsive to Vonge.
+To be deleted as and when completed. Concerns issues that don't seem to be testable on localhost.
 
-* Add Events page (with link in menubar)
-* Add YouTube link (same as Twitter, Facebook etc)
-* Footer should reference Correlaid Netherlands, with Vonge Template by Cloud Cannon at the end.
+* Check contact form (localhost gives a server error message that hopefully disappears in a live environment).
+* Check mobile website appearance (localhost gives computer appearance)
