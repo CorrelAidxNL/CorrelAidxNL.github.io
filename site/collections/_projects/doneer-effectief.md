@@ -2,7 +2,7 @@
 date: 2021-01-06 05:20:35 +0300
 title: Doneer Effectief
 subtitle: Sets up analytics monitoring for their website together with a dashboard to highlight the results.
-image: "/images/doneer_effectief_logo_small.png"
+image: "/images/doneer-effectief-project.png"
 ---
 
 [Doneer Effectief](https://doneereffectief.nl/en/home-en/) is part of the effective altruism movement. Their mission is to make it easy to donate to global effective organizations from within the Netherlands.
