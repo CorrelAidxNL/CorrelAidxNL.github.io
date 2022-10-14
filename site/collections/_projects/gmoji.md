@@ -1,7 +1,7 @@
 ---
 date: 2021-01-11 07:40:35 +0300
 title: G-Moji
-subtitle: Examined if it was possible to predict the emoji label using the phone usage data so that targeted interventions could be made.
+subtitle: Examined if it was possible to predict the emoji label using phone usage data so that targeted interventions could be made.
 image: "/images/g-moji-project.png"
 ---
 

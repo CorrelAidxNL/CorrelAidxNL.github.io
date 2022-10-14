@@ -1,7 +1,7 @@
 ---
 date: 2021-01-10 07:30:35 +0300
 title: Macheo
-subtitle: Helped Macheo improve this impact in the future by using insights from the data to improve their efficiency and effectiveness.
+subtitle: Helped Macheo improve their impact in the future by using insights from past data to improve their efficiency and effectiveness.
 image: "/images/macheo-project.png"
 ---
 

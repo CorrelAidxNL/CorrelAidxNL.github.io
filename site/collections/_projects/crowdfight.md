@@ -1,7 +1,7 @@
 ---
 date: 2021-01-05 05:20:35 +0300
 title: CrowdFight
-subtitle: Helps improve the profiles of CrowdFight volunteers, and classify the incoming requests based on their scientific domain.
+subtitle: Helps improve the profiles of CrowdFight volunteers and classify the incoming requests based on their scientific domain.
 image: "/images/crowdfight-project.png"
 ---
 

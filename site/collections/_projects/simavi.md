@@ -1,7 +1,7 @@
 ---
 date: 2021-01-12 07:50:35 +0300
 title: Simavi
-subtitle: Analyzed baseline and midline surveys that measure the impact of their WASH programme in three different countries, specifically focusing on Gender Equality and Social Inclusion.
+subtitle: Analyzed baseline and midline surveys that measure the impact of Simavi's WASH programme in three different countries, specifically focusing on Gender Equality and Social Inclusion.
 image: "/images/simavi-project.png"
 ---
 
