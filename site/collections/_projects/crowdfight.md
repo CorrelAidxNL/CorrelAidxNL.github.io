@@ -2,7 +2,7 @@
 date: 2021-01-05 05:20:35 +0300
 title: CrowdFight
 subtitle: Helps improve the profiles of CrowdFight volunteers, and classify the incoming requests based on their scientific domain.
-image: "/images/crowdfight_logo_small.png"
+image: "/images/crowdfight-project.png"
 ---
 
 [CrowdFight](https://crowdfight.org) is a non-profit organization dedicated to facilitating scientific collaborations — especially those that don’t emerge naturally — by finding the experts needed to complement research projects and documenting the credit due to every participant.
