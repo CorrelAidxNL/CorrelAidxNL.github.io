@@ -12,7 +12,7 @@ menu__settings:
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Pages'
+    - title: 'More'
       submenu:
       - url: '/anbi/'
         title: 'ANBI'
