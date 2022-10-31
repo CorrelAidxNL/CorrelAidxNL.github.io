@@ -8,4 +8,4 @@ bookshop-live.js
 .DS_Store
 # PyCharm project files
 /.idea/
-!/site/_site/
+!/docs/_site/
