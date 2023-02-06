@@ -11,6 +11,12 @@ This was a quick way to get a website up and running with a familiar look and fe
 In 2022, we decided to reboot the website.
 With the existing codebase being somewhat messy, we decided to start again from scratch.
 The choice to use Jekyll, rather than Hugo, was motivated by its built-in support for website hosting via GitHub.
+Unfortunately it turns out that our choice of template includes some packages that GitHub Pages does not support.
+The list of packages can be found [here](https://pages.github.com/versions/). 
+The naming of this page is unhelpful, but for things to work automatically, don't use something not on this list.
+At the time of writing, they also do not have a meaningful build error message when using an unsupported package.
+Fortunately there is a way around this which will be explained below.
+The sharper reader may now realise that the original rationale for using Jekyll is somewhat undermined by this issue.
 
 ### How It Works
 
@@ -18,13 +24,12 @@ Our website is hosted with [GitHub Pages](https://pages.github.com/).
 It allows us to host a website for free for our [GitHub organisation](https://github.com/CorrelAidxNL).
 A special [.io repo](https://github.com/CorrelAidxNL/CorrelAidxNL.github.io) is made.
 This creates our [github.io](https://CorrelAidxNL.github.io) website.
-We use our DNS service to make this appear under our desired URL, rather than the github one.
+As owners of the [CorrelAid.nl](https://www.correlaid.nl) domain, we can make this appear at our preferred URL.
 
 This repo holds the code base for generating the website and is where we make changes to it.
 It follows a familiar CI/CD framework.
-The idea that any commits to the master branch trigger a rebuild of the website at the _.io repo_.
-The _.io repo_ should be seen in this context more as the deployment environment rather than a regular repo.
-It is **not** to be changed manually.
+The idea that any commits to the master branch will trigger a redeployment of the website.
+I deliberately say _redeployment_ here rather than _rebuild_ because we need to build the website locally ourselves.
 
 As mentioned in the intro, the website is made using Jekyll.
 This is a static website generator.
@@ -40,12 +45,25 @@ The basic recipe for making a change is as follows.
 
 1. Create a new branch on this repo and checkout this new branch locally.
 2. Make the desired changes and test locally, i.e. build and deploy on _localhost_. 
-The cmd line command for this is "bundle exec jekyll serve".
-You need to execute this from the 'site' sub-folder rather than the root directory.
-3. Push the changes to origin and merge to master branch.
-4. Check that your changes are visible in the live website.
+   The cmd line command for this is "bundle exec jekyll serve".
+   You need to execute this from the 'site' sub-folder rather than the root directory.
+3. If you are happy with the result, then you need to locally prepare for deployment on the server.
+   On the server, the _\docs_ folder will effectively be copy/pasted for deployment.
+   Copy the content from the _\_site_ subfolder (the local build) into the _docs_ folder.
+   GitHub pages only supports deployment from either the root or docs folder for some reason.
+   Otherwise, we could skip this step (TODO: make a script to do this automatically for us).
+4. Push the changes to origin and merge to master branch.
+5. Check that your changes are visible in the live website.
 
-Details about how to add certain standard content should be added here.
+The most common change you are going to make is adding a new post to the website.
+Here we assume this is a regular blog post, but for other content the process is similar.
+1. In the _site_ folder (note the lack of _), go to the _collections_ folder. 
+   In this example we pick the _\_posts_ section.
+   At the time of writing, the only other option for adding additional basic content is the _\_projects_ section.
+2. Take the latest post file, copy it and rename it in a logical way inline with the file naming convention. 
+3. Adjust the content to fit your post and upload the image files you are using to the _images_ folder.
+
+Further details about how to add certain standard content should be added here.
 
 ### General Tips
 
@@ -59,6 +77,10 @@ Sometimes websites don't work as you expect, welcome to the world of front end d
   This allows users to easily navigate to other posts on the same topic.
   However, the system automatically capitalises the first letter and doesn't support spaces.
   Please only use single word tags to avoid broken links or strange formatting.
+- **Build Locally**. Since we are using packages not supported by GitHub Pages, we cannot build on the server.
+  Please check that the instructions in the section _Updating the Website_ have been full followed.
+  If you haven't copied the newly made website files to the _docs_ folder, then it will redeploy the old version.
+  If you haven't added the empty _.nojekyll_ file to the root of the _docs_ folder it will fail to build on the server.
 
 ### Getting Started
 
@@ -82,7 +104,7 @@ You of course need to clone this repo, and then make sure you can build and run 
 If you want to be able to make more significant changes,
 it might also be good to check out the [codebase](https://github.com/CloudCannon/vonge-jekyll-bookshop-template) for the theme we are using.
 
-An alternative approach to installing involved the following and is included here in case of further assisatance to new users.
+An alternative approach to installing involved the following and is included here in case of further assistance to new users.
 
 ```bash
 $ npm install
@@ -100,10 +122,3 @@ Run the website:
 ```bash
 $ npm start
 ```
-
-## Remaining Theme Migration Items
-
-To be deleted as and when completed. Concerns issues that don't seem to be testable on localhost.
-
-* Check contact form (localhost gives a server error message that hopefully disappears in a live environment).
-* Check mobile website appearance (localhost gives computer appearance)
