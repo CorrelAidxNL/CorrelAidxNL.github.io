@@ -48,8 +48,8 @@ The basic recipe for making a change is as follows.
    The cmd line command for this is "bundle exec jekyll serve".
    You need to execute this from the 'site' sub-folder rather than the root directory.
 3. If you are happy with the result, then you need to locally prepare for deployment on the server.
-   On the server, the _docs_ folder will effectively be copy/pasted for deployment.
-   Copy the content from the _\_site_ folder (the local build) into the _docs_ folder.
+   On the server, the _\docs_ folder will effectively be copy/pasted for deployment.
+   Copy the content from the _\_site_ subfolder (the local build) into the _docs_ folder.
    GitHub pages only supports deployment from either the root or docs folder for some reason.
    Otherwise, we could skip this step (TODO: make a script to do this automatically for us).
 4. Push the changes to origin and merge to master branch.
