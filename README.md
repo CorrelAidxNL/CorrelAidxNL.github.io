@@ -47,8 +47,13 @@ The basic recipe for making a change is as follows.
 2. Make the desired changes and test locally, i.e. build and deploy on _localhost_. 
    The cmd line command for this is "bundle exec jekyll serve".
    You need to execute this from the 'site' sub-folder rather than the root directory.
-3. If you are happy with the result, then you need to locally prepare for deployment on the server.
+   This command builds the website in the _\_site_ subfolder with your localhost of the root URL.
+   The command prompt should give you a link with the server address so that you can check the website in the browser.
+3. If you are happy with the result locally, then you need to locally prepare for deployment on the server.
    On the server, the _\docs_ folder will effectively be copy/pasted for deployment.
+   To make a deployment ready version of the website, rebuild the website with the command "bundle exec jekyll build".
+   This command (with build NOT serve) takes the actual URL of our website (correlaid.nl) as the root URL.
+   If we didn't do this, and just used 'serve', we end up with references to localhost appearing on the website and some broken links.
    Copy the content from the _\_site_ subfolder (the local build) into the _docs_ folder.
    GitHub pages only supports deployment from either the root or docs folder for some reason.
    Otherwise, we could skip this step (TODO: make a script to do this automatically for us).
@@ -78,9 +83,10 @@ Sometimes websites don't work as you expect, welcome to the world of front end d
   However, the system automatically capitalises the first letter and doesn't support spaces.
   Please only use single word tags to avoid broken links or strange formatting.
 - **Build Locally**. Since we are using packages not supported by GitHub Pages, we cannot build on the server.
-  Please check that the instructions in the section _Updating the Website_ have been full followed.
+  Please check that the instructions in the section _Updating the Website_ have been fully followed.
   If you haven't copied the newly made website files to the _docs_ folder, then it will redeploy the old version.
   If you haven't added the empty _.nojekyll_ file to the root of the _docs_ folder it will fail to build on the server.
+  If you haven't built the website using the build command (i.e. using serve instead), then we will get references to localhost and broken links.
 
 ### Getting Started
 
