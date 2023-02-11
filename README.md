@@ -51,12 +51,11 @@ The basic recipe for making a change is as follows.
    The command prompt should give you a link with the server address so that you can check the website in the browser.
 3. If you are happy with the result locally, then you need to locally prepare for deployment on the server.
    On the server, the _\docs_ folder will effectively be copy/pasted for deployment.
-   To make a deployment ready version of the website, rebuild the website with the command "bundle exec jekyll build".
+   To make a deployment ready version of the website, rebuild the website with the command "bundle exec jekyll build -d ../docs".
    This command (with build NOT serve) takes the actual URL of our website (correlaid.nl) as the root URL.
    If we didn't do this, and just used 'serve', we end up with references to localhost appearing on the website and some broken links.
-   Copy the content from the _\_site_ subfolder (the local build) into the _docs_ folder.
+   The '-d ../docs' part of the command sets the build destination to the _docs_ folder.
    GitHub pages only supports deployment from either the root or docs folder for some reason.
-   Otherwise, we could skip this step (TODO: make a script to do this automatically for us).
 4. Push the changes to origin and merge to master branch.
 5. Check that your changes are visible in the live website.
 
