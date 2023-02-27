@@ -197,7 +197,7 @@
     <h1> As a volunteer</h1> <p>
   Do you want to apply your data science skills to real world problems? Then CorrelAid Netherlands is for you! 
   In teams of usually 2-4 people, we help NGOs gain insight into their own data and use the results.
-</p> <p>We announce projects on <a href="https://twitter.com/CorrelAidxNL">Twitter</a>, <a href="https://www.facebook.com/CorrelAidXNetherlands">Facebook</a>,  <a href="https://www.linkedin.com/company/correlaid-x-netherlands/">LinkedIn</a>, through our <a href="https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff">Newsletter</a>, and on Slack, so be sure to follow us there. If you want to join our community on Slack, please fill out <a href="https://forms.gle/Y8E3jsW2FBmCfq9h7">this form</a>.  Afterwards, we will contact you to have a chat and invite you. If you have more questions, please contact <a href="mailto:andrew@correlaid.nl">Andrew</a>. </p> <p>
+</p> <p>We announce projects on <a href="https://twitter.com/CorrelAidxNL">Twitter</a>, <a href="https://www.facebook.com/CorrelAidXNetherlands">Facebook</a>,  <a href="https://www.linkedin.com/company/correlaid-x-netherlands/">LinkedIn</a>, through our <a href="https://dashboard.mailerlite.com/forms/257414/78748110521631819/share">Newsletter</a>, and on Slack, so be sure to follow us there. If you want to join our community on Slack, please fill out <a href="https://forms.gle/Y8E3jsW2FBmCfq9h7">this form</a>.  Afterwards, we will contact you to have a chat and invite you. If you have more questions, please contact <a href="mailto:andrew@correlaid.nl">Andrew</a>. </p> <p>
   Are you working on an interesting data project and want to share your results with a wider audience? 
   Is your organisation using data in innovative ways to tackle difficult societal challenges? Do you have skills that you want to teach others? 
   Then write a blog post for us, speak at one of our Meetups, or teach a workshop. 
@@ -213,24 +213,33 @@
 
     <!--bookshop-live name(newsletter/newsletter.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
           <!-- begin subscribe -->
+<!-- set-up variables, this allow jekyll defaults to be used if not overwritten in front matter -->
 
+
+
+
+
+<!-- html code -->
 <section class="c-subscribe section">
   <div class="container">
     <div class="row">
       <div class="col col-12">
-
         <div class="c-subscribe__inner">
           <div class="c-subscribe__info">
-            <h3 class="c-subscribe__title">Join our mailing list</h3>
+            <h3 class="c-subscribe__title">
+                Join our mailing list
+            </h3>
             <div class="c-subscribe__subtitle">
               <span id="ityped"></span>
             </div>
           </div>
 
-          <form class="c-subscribe__form validate" action="//correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+          <form class="c-subscribe__form validate" action="//dashboard.mailerlite.com/forms/257414/78748110521631819/share"
+            method="get" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <!-- Commenting out the code that asks you to write your email address as you do that in the form directly
             <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
             <input class="c-subscribe__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
+            -->
             <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
           </form>
 
@@ -329,7 +338,7 @@
           
         </ul>
 
-        <div class="copyright"><p> 2022 &copy; CorrelAid Netherlands using the Vonge template by <a href="https://cloudcannon.com/community/themes/vonge/">CloudCannon</a>.</p></div>
+        <div class="copyright"><p> 2023 &copy; CorrelAid Netherlands using the Vonge template by <a href="https://cloudcannon.com/community/themes/vonge/">CloudCannon</a>.</p></div>
 
       </div>
     </div>

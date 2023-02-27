@@ -250,7 +250,7 @@
     <a href="https://www.meetup.com/DataForGood-CorrelAid-X-Netherlands/">Meetup</a>,
     <a href="https://www.facebook.com/CorrelAidXNetherlands">Facebook</a>, or
     <a href="https://twitter.com/CorrelAidxNL">Twitter</a>;
-    sign-up for our <a href="https://correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff">newsletter</a>;
+    sign-up for our <a href="https://dashboard.mailerlite.com/forms/257414/78748110521631819/share">newsletter</a>;
     or become part of CorrelAid Netherlands by filling out this
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSedU42DDarSFW1IdDUO1WeVCk3mcBr0_9jKqvKHnEWPDiUC-A/viewform">
         short survey</a>.
@@ -552,24 +552,33 @@
   newsletter_identifier=site.data.newsletter.newsletter_identifier
   newsletter_button=site.data.newsletter.newsletter_button) context() -->
           <!-- begin subscribe -->
+<!-- set-up variables, this allow jekyll defaults to be used if not overwritten in front matter -->
 
+
+
+
+
+<!-- html code -->
 <section class="c-subscribe section">
   <div class="container">
     <div class="row">
       <div class="col col-12">
-
         <div class="c-subscribe__inner">
           <div class="c-subscribe__info">
-            <h3 class="c-subscribe__title">Join our mailing list</h3>
+            <h3 class="c-subscribe__title">
+                Join our mailing list
+            </h3>
             <div class="c-subscribe__subtitle">
               <span id="ityped"></span>
             </div>
           </div>
 
-          <form class="c-subscribe__form validate" action="//correlaid.us12.list-manage.com/subscribe?u=b294bf2834adf5d89bdd2dd5a&id=915f3f3eff"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+          <form class="c-subscribe__form validate" action="//dashboard.mailerlite.com/forms/257414/78748110521631819/share"
+            method="get" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <!-- Commenting out the code that asks you to write your email address as you do that in the form directly
             <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
             <input class="c-subscribe__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
+            -->
             <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
           </form>
 
@@ -671,7 +680,7 @@
           
         </ul>
 
-        <div class="copyright"><p> 2022 &copy; CorrelAid Netherlands using the Vonge template by <a href="https://cloudcannon.com/community/themes/vonge/">CloudCannon</a>.</p></div>
+        <div class="copyright"><p> 2023 &copy; CorrelAid Netherlands using the Vonge template by <a href="https://cloudcannon.com/community/themes/vonge/">CloudCannon</a>.</p></div>
 
       </div>
     </div>

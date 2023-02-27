@@ -1,23 +1,48 @@
 <!-- begin subscribe -->
+<!-- set-up variables, this allow jekyll defaults to be used if not overwritten in front matter -->
 {% assign c = "c-subscribe" %}
+{% if include.newsletter_title %}
+  {% assign newsletter_title = include.newsletter_title %}
+{% else %}
+  {% assign newsletter_title = site.data.newsletter.newsletter_title %}
+{% endif %}
+{% if include.newsletter_description %}
+  {% assign newsletter_description = include.newsletter_description %}
+{% else %}
+  {% assign newsletter_description = site.data.newsletter.newsletter_description %}
+{% endif %}
+{% if include.newsletter_identifier %}
+  {% assign newsletter_identifier = include.newsletter_identifier %}
+{% else %}
+  {% assign newsletter_identifier = site.data.newsletter.newsletter_identifier %}
+{% endif %}
+{% if include.newsletter_button %}
+  {% assign newsletter_button = include.newsletter_button %}
+{% else %}
+  {% assign newsletter_button = site.data.newsletter.newsletter_button %}
+{% endif %}
+<!-- html code -->
 <section class="{{c}} section">
   <div class="container">
     <div class="row">
       <div class="col col-12">
-
         <div class="{{c}}__inner">
           <div class="{{c}}__info">
-            <h3 class="{{c}}__title">{{ include.newsletter_title }}</h3>
+            <h3 class="{{c}}__title">
+                {{ newsletter_title }}
+            </h3>
             <div class="{{c}}__subtitle">
               <span id="ityped"></span>
             </div>
           </div>
 
-          <form class="{{c}}__form validate" action="//{{ include.newsletter_identifier }}"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+          <form class="{{c}}__form validate" action="//{{ newsletter_identifier }}"
+            method="get" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <!-- Commenting out the code that asks you to write your email address as you do that in the form directly
             <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
             <input class="{{c}}__form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
-            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">{{ include.newsletter_button }}</button>
+            -->
+            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">{{ newsletter_button }}</button>
           </form>
 
         </div>
@@ -28,5 +53,5 @@
 <!-- end subscribe -->
 
 <script>
-  var itype_text = ['{{ include.newsletter_description }}'];
+  var itype_text = ['{{ newsletter_description }}'];
 </script>
