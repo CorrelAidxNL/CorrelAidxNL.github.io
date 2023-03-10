@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CorrelAid Netherlands YouTube Channel</title>
-  <meta name='description' content='CorrelAid Netherlands goes YouTube'>
+  <title>Helping Crowdfight facilitate scientific collaborations</title>
+  <meta name='description' content='Rewarding collaboration with Crowdfight!'>
 
-  <link rel="canonical" href="https://correlaid.nl/blog/correlaid-youtube">
+  <link rel="canonical" href="https://correlaid.nl/blog/crowdfight-collaboration">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorrelAid Netherlands YouTube Channel – CorrelAid Netherlands">
-  <meta name="twitter:description" content="CorrelAid Netherlands goes YouTube">
-  <meta name="twitter:image:src" content="https://correlaid.nl/images/correlaid-youtube-thumb.png">
+  <meta name="twitter:title" content="Helping Crowdfight facilitate scientific collaborations – CorrelAid Netherlands">
+  <meta name="twitter:description" content="Rewarding collaboration with Crowdfight!">
+  <meta name="twitter:image:src" content="https://correlaid.nl/images/facilitating-collaborations-header.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="CorrelAid Netherlands YouTube Channel – CorrelAid Netherlands">
-  <meta property="og:description" content="CorrelAid Netherlands goes YouTube">
-  <meta property="og:image" content="https://correlaid.nl/images/correlaid-youtube-thumb.png">
+  <meta property="og:title" content="Helping Crowdfight facilitate scientific collaborations – CorrelAid Netherlands">
+  <meta property="og:description" content="Rewarding collaboration with Crowdfight!">
+  <meta property="og:image" content="https://correlaid.nl/images/facilitating-collaborations-header.png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -179,7 +179,7 @@
       
       <div class="col col-6 col-d-12">
         <div class="post-image">
-          <img loading="lazy" src="/images/correlaid-youtube-thumb.png" alt="CorrelAid Netherlands YouTube Channel">
+          <img loading="lazy" src="/images/facilitating-collaborations-header.png" alt="Helping Crowdfight facilitate scientific collaborations">
         </div>
       </div>
       
@@ -190,24 +190,26 @@
           
           <div class="post-tags">
             
-              <a href="/tag/online" class="post-tags__tag">online</a>
+              <a href="/tag/project" class="post-tags__tag">project</a>
             
-              <a href="/tag/organisation" class="post-tags__tag">organisation</a>
+              <a href="/tag/matching" class="post-tags__tag">matching</a>
+            
+              <a href="/tag/data science" class="post-tags__tag">data science</a>
             
           </div>
           
 
 
-          <h1 class="post__title">CorrelAid Netherlands YouTube Channel</h1>
+          <h1 class="post__title">Helping Crowdfight facilitate scientific collaborations</h1>
 
           <div class="post__meta">
             <div class="post__author-image">
-              <img loading="lazy" src="/images/avatar.jpg" alt="Fabian">
+              <img loading="lazy" src="/images/avatar.jpg" alt="Mehrzad">
             </div>
 
             <div class="post__meta-bottom">
-              <div class="post__author">Fabian</div>
-              <time class="post__date" datetime="2021-05-03T00:00:00+02:00">03 May 2021</time>
+              <div class="post__author">Mehrzad</div>
+              <time class="post__date" datetime="2023-03-10T13:00:00+01:00">10 Mar 2023</time>
             </div>
           </div>
 
@@ -223,9 +225,66 @@
   <article class="post">
 
     <div class="post__content">
-      <p>We have recently started to host regular events, with topics ranging from using data science to address vaccine misinformation and ethical AI for humanitarian aid to machine learning for depression and open geo-data for resilience.</p>
+      <p><em>This blog post was written by Mary Newhauser, Martin Baldenhofer, and Mehrzad Karami.</em></p>
 
-<p>One of the accidental gifts of the coronavirus pandemic is that these events are taking place online, which means they can easily be recorded for those who could not attend. We have now created a <a href="https://www.youtube.com/channel/UCRBedMwdhH9kWFf3tOmekWw">CorrelAid Netherlands YouTube channel</a> which makes past and future recordings of our events available.</p>
+<p>We all remember the early days of the Covid-19 pandemic. Lockdowns, border closures, homemade face masks, toilet paper hoarding, and even mail microwaving. Looking back, it’s incredible to consider how little we knew about the virus that would kill millions and cause historic global disruption for years to come. We simply did not have answers to the most basic of questions about the virus. How deadly is it? How easily does it spread? Do face masks work? At the beginning of the pandemic, doctors, researchers, and the general public were hungry for answers, and that’s where Crowdfight came in.</p>
+
+<h1 id="what-is-crowdfight">What is Crowdfight?</h1>
+<p><a href="https://crowdfight.org/">Crowdfight</a> is a non-profit dedicated to <a href="https://www.youtube.com/watch?v=gyfMg7n2mv4">facilitating scientific collaborations</a> — especially those that don’t emerge naturally — by finding the experts needed to complement research projects and documenting the credit due to every participant. The organization grew out of an initiative at the beginning of the pandemic to facilitate knowledge transfer of Covid-related topics between medical researchers worldwide.</p>
+
+<p>Realizing the value of the system they created, Crowdfight decided to open up their platform to researchers seeking collaborations on all sorts of topics, not just Covid. Crowdfight works like this: Researchers seeking collaborators for a specific task submit a request to Crowdfight which is then sent out to a list of researchers with matching skill sets who previously signed up to volunteer their time.</p>
+
+<h1 id="crowdfight-and-correlaid">Crowdfight and CorrelAid</h1>
+<p>The primary problem with Crowdfight’s current matching process is its imprecision. Approximately 93% of all Crowdfight users who respond to a request report that they are a poor match for the given task. To avoid user disengagement, Crowdfight wants to incorporate machine learning into the matching process, which is where CorrelAid steps in.</p>
+
+<p>In a six-month sprint, a team of data scientists worked alongside a team of data engineers set up an automated pipeline, running in Google Cloud that pre-processes and saves all incoming Crowdfight data to Google BigQuery, so that Crowdfight can build and implement a machine learning solution that better matches prospective volunteers to requests in the future.</p>
+
+<h1 id="data-science">Data science</h1>
+<p>Before our collaboration, Crowdfight data was collected through forms filled out directly by Crowdfight participants and inserted into Google Sheets. All the data needed to be cleaned and standardized, while the requests data needed to be enriched by being joined with an additional Google Sheet in which Crowdfight volunteers had assigned both a general and specific academic subject category.</p>
+
+<p>To assess the quality of their current matching system, Crowdfight asked volunteers to rate the relevance of each volunteer task that was emailed to them. These responses were similarly saved in Google Sheets. In order to build a training dataset for Crowdfight, we needed to match up all the data for individual requests with the available responses. We also joined the response data with information that Crowdfight volunteers disclose when they sign up, including research area of expertise, highest level of education achieved, and the amount of time per week they can devote to a volunteer project.</p>
+
+<p>The culmination of our efforts resulted in the following deliverables:</p>
+
+<ul>
+  <li>Comprehensive data preprocessing script that consumes request, response, and volunteer data and writes clean versions of the data as well as an ML-ready training dataset to BigQuery.</li>
+  <li>Jupyter notebook for exploratory data analysis that provides an overview of the current (baseline) performance of Crowdfight in matching requests to appropriate users.</li>
+  <li>Training dataset that can be used for feature engineering, generating text embeddings, and model building, in the future.</li>
+</ul>
+
+<h1 id="data-engineering">Data engineering</h1>
+<p>In the data engineering part of the project, we focused on deploying and operating a cloud infrastructure. Our ultimate goal was to move all data and code to the cloud and avoid having data distributed across different devices and running code with dependencies on local machines. When selecting the components for the deployment and the operation process we were focusing on easy maintenance and low cost.</p>
+
+<p>Our deployment process is triggered automatically when changes are made to the main branch of the code repository. A GitHub action builds a Docker container from the Python code, which is then published to <em>Google Artifact</em>, a service provided by Google Cloud Platform that manages and hosts software artifacts.</p>
+
+<p>To run the code, we use <em>Google Workflow</em> to orchestrate the different runs of the containers. <em>Google Workflow</em> is a workflow automation tool which coordinates the execution of multiple tasks or services. The containers are run on <em>Cloud Run</em>, a fully managed serverless container platform on the Google Cloud Platform which automatically scales the container instances based on incoming requests. When a <em>Cloud Run</em> job is triggered, it retrieves the corresponding Docker container from <em>Google Artifact</em>, which was previously published during the deployment process.</p>
+
+<p>The code running inside the container reads and writes data against <em>Google BigQuery</em>, a fully managed, serverless data warehouse on the Google Cloud Platform that allows the analysis and querying of large datasets using SQL-like syntax.</p>
+
+<p>We chose to use fully managed services by Google to make it easier for Crowdfight to maintain and scale the process. All services use Google Cloud IAM for authentication, so there is no need to generate and manage separate secrets/passwords for each service, making the whole process easy to manage and secure.</p>
+
+<h1 id="project-coordination">Project coordination</h1>
+<p>Crowdfight noted that it was a great experience to work alongside our talented data scientists and data engineers together with their team of scientists. Here are some of the takeaways, as seen from the perspective of project coordination and support:</p>
+
+<ul>
+  <li>The drive and the sheer amount of enthusiasm from our volunteers was one of the driving forces to move this project forward, and deliver excellent results.</li>
+  <li>The level of expertise was superb. The mixture of expert level volunteers with newcomers in this field created a great learning environment for everyone working and contributing to this project.</li>
+  <li>The leadership skills, especially from the tech leads of the data science as well as the data engineering team made it possible to deliver the project and tackle the obstacles and challenges early on in a very constructive and effective way.</li>
+</ul>
+
+<p>The team consisted of the following people:</p>
+<ul>
+  <li>CorrelAid:
+    <ul>
+      <li>Phase 1: Mathis Lucka, Lada Rudnitckaia, Chiel Bakkeren, Julia Masloh, Mehrzad Karami</li>
+      <li>Phase 2: Mary Newhauser (Lead Data Science team), Martin Baldenhofer (Lead Data Engineering), Barnaby Rumbold, Daljit Singh, Jaime Raldua Veuthey, Julian Werner, Sam Chien, Mehrzad Karami</li>
+    </ul>
+  </li>
+  <li>Crowdfight: Alfonso Pérez Escudero, Francisco Romero Ferrero</li>
+</ul>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>Overall, this was a highly enjoyable collaboration! We are proud to have been able to help an organization that does such excellent work as Crowdfight, and we are excited to see how they will develop in the future. If you know an organization that could benefit from our data science and data engineering volunteers, please do not hesitate to <a href="https://correlaid.nl/getinvolved/">reach out</a>.</p>
 
     </div>
     
@@ -249,25 +308,25 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__twitter"
-        href="https://twitter.com/intent/tweet?text=CorrelAid%20Netherlands%20YouTube%20Channel&url=https://correlaid.nl/blog/correlaid-youtube"
+        href="https://twitter.com/intent/tweet?text=Helping%20Crowdfight%20facilitate%20scientific%20collaborations&url=https://correlaid.nl/blog/crowdfight-collaboration"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__facebook"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://correlaid.nl/blog/correlaid-youtube"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://correlaid.nl/blog/crowdfight-collaboration"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__pinterest"
-        href="http://pinterest.com/pin/create/button/?url=https://correlaid.nl/blog/correlaid-youtube&amp;media=https://correlaid.nl/images/correlaid-youtube-thumb.png&amp;description=CorrelAid%20Netherlands%20YouTube%20Channel"
+        href="http://pinterest.com/pin/create/button/?url=https://correlaid.nl/blog/crowdfight-collaboration&amp;media=https://correlaid.nl/images/facilitating-collaborations-header.png&amp;description=Helping%20Crowdfight%20facilitate%20scientific%20collaborations"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Pinterest" rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=https://correlaid.nl/blog/correlaid-youtube&title=CorrelAid%20Netherlands%20YouTube%20Channel&summary=CorrelAid%20Netherlands%20goes%20YouTube&source=Vonge"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=https://correlaid.nl/blog/crowdfight-collaboration&title=Helping%20Crowdfight%20facilitate%20scientific%20collaborations&summary=Rewarding%20collaboration%20with%20Crowdfight!&source=Vonge"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -282,27 +341,17 @@
     <div class="col col-10 col-d-12 push-d-0 push-1">
       <div class="post__navigation animate">
   
-  <a class="post__prev" href="/blog/bingo-meetup">
+  <a class="post__prev" href="/blog/predicting-crowdedness">
     <div class="prev__image">
-      <img loading="lazy" src="/images/bingo-town-thumb.png" alt="CorrelAid Netherlands YouTube Channel">
+      <img loading="lazy" src="/images/ns_logo.png" alt="Helping Crowdfight facilitate scientific collaborations">
     </div>
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Prev post</span>
-      <h2 class="post__nav__title">Virtual Get Together: Bingo and Speed Dating</h2>
+      <h2 class="post__nav__title">Predicting the crowdedness of trains and improving decision-making</h2>
     </div>
   </a>
   
 
-  
-  <a class="post__next" href="/blog/conserving-nature">
-    <div class="next__box">
-      <span class="post__nav post__nav__next">Next post</span>
-      <h2 class="post__nav__title">Using data to conserve nature and stop wildlife crime</h2>
-    </div>
-    <div class="next__image">
-      <img loading="lazy" src="/images/elephant-header.png" alt="CorrelAid Netherlands YouTube Channel">
-    </div>
-  </a>
   
 </div>
     </div>
@@ -317,7 +366,7 @@
 
 <!-- begin related posts -->
 <div class="container">
-  <section class="related-posts is-related animate">
+  <section class="related-posts  animate">
     <div class="row">
       <div class="col col-12">
         <div class="container__inner">
@@ -328,7 +377,9 @@
                 
                 
                   
-                    <a href="/tags#online" class="section__link related-tag">See all<span> online</span> <i class="ion ion-md-arrow-forward"></i></a>
+                    <a href="/tags#project" class="section__link related-tag">See all<span> project</span> <i class="ion ion-md-arrow-forward"></i></a>
+                  
+                
                   
                 
                   
@@ -360,57 +411,6 @@
             
       
             
-
-              <div class="article col col-4 col-d-6 col-t-12">
-                <div class="article__inner">
-              
-                  
-                  <div class="image-wrap">
-                    <a class="article__image" href="/blog/fossil-banks">
-                      <img loading="lazy" src="/images/tracking-banks-header.png" alt="Tracking and Ditching Fossil Banks">
-                    </a>
-                  </div>
-                  
-              
-                  <div class="article__content">
-              
-                    
-                    <div class="article-tags__box">
-                      
-                      <a href="/tag/banking" class="article__tag">banking</a>
-                      
-                      <a href="/tag/climate" class="article__tag">climate</a>
-                      
-                      <a href="/tag/online" class="article__tag">online</a>
-                      
-                    </div>
-                    
-              
-                    <h2 class="article__title">
-                      <a href="/blog/fossil-banks">Tracking and Ditching Fossil Banks</a>
-                    </h2>
-              
-                    <p class="article__excerpt">
-                      Insightful talk and conversation with Johan Frijns, director of BankTrack.
-                    </p>
-              
-                    <div class="article__meta">
-                      <div class="article__author-image">
-                        <img loading="lazy" src="/images/avatar.jpg" alt="Fabian">
-                      </div>
-                      <div class="article-info">
-                        <div class="article__author-name">Fabian</div>
-                        <span class="article__date"><time datetime="2021-12-05T13:01:35+01:00">05 Dec 2021</time></span>
-                      </div>
-                    </div>
-              
-                  </div>
-                </div>
-              </div>
-
-            
-                
-              
             
             
             
@@ -418,57 +418,6 @@
             
       
             
-
-              <div class="article col col-4 col-d-6 col-t-12">
-                <div class="article__inner">
-              
-                  
-                  <div class="image-wrap">
-                    <a class="article__image" href="/blog/climate-action">
-                      <img loading="lazy" src="/images/stripes-global-thumb.png" alt="Understanding & Preventing Climate Breakdown">
-                    </a>
-                  </div>
-                  
-              
-                  <div class="article__content">
-              
-                    
-                    <div class="article-tags__box">
-                      
-                      <a href="/tag/climate" class="article__tag">climate</a>
-                      
-                      <a href="/tag/action" class="article__tag">action</a>
-                      
-                      <a href="/tag/online" class="article__tag">online</a>
-                      
-                    </div>
-                    
-              
-                    <h2 class="article__title">
-                      <a href="/blog/climate-action">Understanding & Preventing Climate Breakdown</a>
-                    </h2>
-              
-                    <p class="article__excerpt">
-                      Intense workshop on the climate emergency and climate action.
-                    </p>
-              
-                    <div class="article__meta">
-                      <div class="article__author-image">
-                        <img loading="lazy" src="/images/avatar.jpg" alt="Fabian">
-                      </div>
-                      <div class="article-info">
-                        <div class="article__author-name">Fabian</div>
-                        <span class="article__date"><time datetime="2021-11-28T13:01:35+01:00">28 Nov 2021</time></span>
-                      </div>
-                    </div>
-              
-                  </div>
-                </div>
-              </div>
-
-            
-                
-              
             
             
             
@@ -476,57 +425,49 @@
             
       
             
-
-              <div class="article col col-4 col-d-6 col-t-12">
-                <div class="article__inner">
-              
-                  
-                  <div class="image-wrap">
-                    <a class="article__image" href="/blog/facilitating-collaborations">
-                      <img loading="lazy" src="/images/facilitating-collaborations-header.png" alt="Streamlining scientific collaborations">
-                    </a>
-                  </div>
-                  
-              
-                  <div class="article__content">
-              
-                    
-                    <div class="article-tags__box">
-                      
-                      <a href="/tag/collaborations" class="article__tag">collaborations</a>
-                      
-                      <a href="/tag/global" class="article__tag">global</a>
-                      
-                      <a href="/tag/online" class="article__tag">online</a>
-                      
-                    </div>
-                    
-              
-                    <h2 class="article__title">
-                      <a href="/blog/facilitating-collaborations">Streamlining scientific collaborations</a>
-                    </h2>
-              
-                    <p class="article__excerpt">
-                      How one organization is rethinking scientific collaborations.
-                    </p>
-              
-                    <div class="article__meta">
-                      <div class="article__author-image">
-                        <img loading="lazy" src="/images/avatar.jpg" alt="Fabian">
-                      </div>
-                      <div class="article-info">
-                        <div class="article__author-name">Fabian</div>
-                        <span class="article__date"><time datetime="2021-09-21T14:01:35+02:00">21 Sep 2021</time></span>
-                      </div>
-                    </div>
-              
-                  </div>
-                </div>
-              </div>
-
             
-                
-                  
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
           </div>
         </div>
       </div>
