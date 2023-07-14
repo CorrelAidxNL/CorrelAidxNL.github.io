@@ -8,7 +8,7 @@ tags:
   - data science
   - SLK
   - MasterStory
-image: /images/kosova_logo.webp
+image: /images/kosova_logo_v2.webp
 ---
 
 *This blog post was written by Mehrzad Karami.*
@@ -26,7 +26,7 @@ image: /images/kosova_logo.webp
 
 
 ## What is SLK?
-Sustainability Leadership Kosova (SLK) [ LINK ] is a non-profit dedicated to empowering individuals, businesses and organisations in leadership with the aim to educate, drive, and support the integration of sustainability solutions in Kosovo. SLK actions and activities are designed towards the system’s change, which is at the heart of this NGO’s work. They aim to achieve the highest level of change that will create long-term positive impact and shared values across:
+Sustainability Leadership Kosova [(SLK)](https://www.slkosova.org/) is a non-profit dedicated to empowering individuals, businesses and organisations in leadership with the aim to educate, drive, and support the integration of sustainability solutions in Kosovo. SLK actions and activities are designed towards the system’s change, which is at the heart of this NGO’s work. They aim to achieve the highest level of change that will create long-term positive impact and shared values across:
 - <b>Economy</b>: Empower businesses by helping and guiding them on how to integrate sustainability and develop transformative leadership to realise a zero-waste, carbon-neutral, socially-fair economy
 - <b>People</b>: Prioritize working with individuals, harnessing their power for change through actions that promote wellbeing, equality, and social justice, leading to a future that is fit for all.
 - <b>Nature</b>: Foster individual, organisational and collective responsibility for protecting nature, which is the source of life, including all living creatures and the ecosystems that support all the parties involved
