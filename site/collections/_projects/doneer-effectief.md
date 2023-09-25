@@ -2,7 +2,7 @@
 date: 2021-01-06 05:20:35 +0300
 title: Doneer Effectief
 subtitle: Sets up analytics monitoring for their website together with a dashboard to highlight the results.
-image: "/images/doneer-effectief-project.png"
+image: "/images/doneer_effectief_logo_new.png"
 ---
 
 [Doneer Effectief](https://doneereffectief.nl/en/) uses principles from the effective altruism movement. 
