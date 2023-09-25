@@ -5,6 +5,9 @@ subtitle: Sets up analytics monitoring for their website together with a dashboa
 image: "/images/doneer-effectief-project.png"
 ---
 
-[Doneer Effectief](https://doneereffectief.nl/en/home-en/) is part of the effective altruism movement. Their mission is to make it easy to donate to global effective organizations from within the Netherlands.
+[Doneer Effectief](https://doneereffectief.nl/en/) uses principles from the effective altruism movement. 
+Their mission is to make it easy to donate to global effective organizations from within the Netherlands.
 
-Their website plays a key role in realizing this goal, but how effective is their website? In this project, we set up analytics monitoring for their website together with a dashboard to highlight the results. Already during the lifetime of the project, useful insights were gained about their referral traffic facilitating cross-sector comparisons.
+Their website plays a key role in realizing this goal, but how effective is their website? 
+In this project, we set up analytics monitoring for their website together with a dashboard to highlight the results. 
+Already during the lifetime of the project, useful insights were gained about their referral traffic facilitating cross-sector comparisons.
