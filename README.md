@@ -86,6 +86,8 @@ Sometimes websites don't work as you expect, welcome to the world of front end d
   If you haven't copied the newly made website files to the _docs_ folder, then it will redeploy the old version.
   If you haven't added the empty _.nojekyll_ file to the root of the _docs_ folder it will fail to build on the server.
   If you haven't built the website using the build command (i.e. using serve instead), then we will get references to localhost and broken links.
+- **Case Sensitivity**. Behaviour can be inconsistent with regards to the cases of filenames and their extensions.
+  To avoid a gotcha with filenames, make sure the extensions are in lower case.
 
 ### Getting Started
 
