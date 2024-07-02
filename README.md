@@ -56,8 +56,10 @@ The basic recipe for making a change is as follows.
    If we didn't do this, and just used 'serve', we end up with references to localhost appearing on the website and some broken links.
    The '-d ../docs' part of the command sets the build destination to the _docs_ folder.
    GitHub pages only supports deployment from either the root or docs folder for some reason.
-4. Push the changes to origin and merge to master branch.
-5. Check that your changes are visible in the live website.
+4. Manually correct the pagination links for the blog posts (see _General Tips_ for details)
+   and possibly also project posts in the future.
+5. Push the changes to origin and merge to master branch.
+6. Check that your changes are visible in the live website.
 
 The most common change you are going to make is adding a new post to the website.
 Here we assume this is a regular blog post, but for other content the process is similar.
@@ -81,6 +83,18 @@ Sometimes websites don't work as you expect, welcome to the world of front end d
   This allows users to easily navigate to other posts on the same topic.
   However, the system automatically capitalises the first letter and doesn't support spaces.
   Please only use single word tags to avoid broken links or strange formatting.
+- **Pagination**. When there are many items, Jekyll can split them across multiple pages (known as pagination).
+  Sadly the Vonge template has implemented this in a way that only works properly when deploying via CloudCannon.
+  On their [website](https://cloudcannon.com/templates/vonge/?ssg=jekyll), this issue has been acknowledged.
+  As we are deploying via GitHub, this is a problem for us.
+  Some of the links created for the pagination (to move between the various split pages) will be broken.
+  This seems to happen when the pagination extends beyond two pages, which is why we didn't notice it at first.
+  We haven't found a simple and proper solution to this, 
+  possibly the codebase of the template needs some non-trivial changes. 
+  A manual fix is to overwrite those links after making the build.
+  For example, going to the _docs/blog/page/2/index.html_ file 
+  and changing the href for _pagination__next_ from _"../../."_ to _"../../page/3/"_.
+  This needs to be done for all links between pages 2 and greater, sadly.
 - **Build Locally**. Since we are using packages not supported by GitHub Pages, we cannot build on the server.
   Please check that the instructions in the section _Updating the Website_ have been fully followed.
   If you haven't copied the newly made website files to the _docs_ folder, then it will redeploy the old version.
