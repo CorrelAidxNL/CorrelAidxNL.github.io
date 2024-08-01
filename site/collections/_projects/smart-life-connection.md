@@ -20,9 +20,6 @@ However, in addition to qualitative reporting, SLC needed data to back up their 
 # The Solution
 In order to support SLC's call for help, our volunteers needed to find, analyze and visualize data on food security in Suriname -- as fast as possible. In 10 weeks, the volunteers gathered and combined data on food production, imports and exports, poverty, smallholder/subsitence farming, access to food (roads/transport) and other factors that could contribute to food insecurity. 
 
-<!-- Contributing factors to food insecurity illustrated in the interactive diagrams that can be found [here](https://kumu.io/suriname-hunger-risk/suriname-hunger-risk#suriname-food-security) and [here](https://kumu.io/suriname-hunger-risk/suriname-hunger-risk#suriname-food-security/indicators) -->
-
-
 # The Impact
 This led to several findings on (contributing factors to) food insecurity in Suriname, as well as estimations on the required food support needs, all backed by data. These conclusions were summarized in the Hunger Risk Mapping Report.
 
@@ -37,12 +34,9 @@ Thanks to the combined qualitative and quantitative findings from SLC’s Quick 
 <b>Project Status:</b> Completed  <br />
 <b>Timeline:</b> 10 weeks (11-10-2021 - 22-12-2021)  <br />
 <b>Location:</b> Remote<br />
-<b>Skills:</b> Data analysis / Data finding / Open data <br />
-<b>Topic:</b> Quick Scan Food Security Suriname <br />
-
+<b>Topic:</b> Data Analysis Food Security Suriname <br />
+<b>Skills:</b> Data Gathering / Data Analysis / Statistical Analysis <br />
 
 A huge thanks goes out to our volunteers: <br /> Maria Bader, Maya Bogers, Valerie Habbel, David Jankoski, Patryk Kubiczek, Liza Olenderek and Sander Rurup
-
-
 
 ![](/images/hunger_map_risk.png)
