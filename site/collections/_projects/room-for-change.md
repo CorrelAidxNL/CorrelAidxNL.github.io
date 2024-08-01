@@ -10,7 +10,7 @@ image: "/images/roomforchange1.png"
 
 However, effectively monitoring and understanding the project's progress is a challenge. Insights into the number of individuals who have benefited from the project and the timeline it took for them to transition into lasting housing solutions could aid in attracting new hotel partners and fundraisers. This requires a comprehensive, easy to maintain data tracking system and reporting. 
 
-# The Project
+# The Solution
 With guidance and insights from the team at ROOM FOR CHANGE, our volunteers focused on automating ROOM FOR CHANGE’s data management processes, from streamlining data capture to cleansing historical records and developing automated reporting mechanisms. As a result, ROOM FOR CHANGE now benefits from a unified and centralised data management system, better positioning the organisation to support more economically homeless individuals in the forthcoming year.
 
 # The Impact
@@ -25,10 +25,12 @@ The impact was measurable: from 2022 to 2023 the number of participants who have
 
 
 <b>Partner Organization:</b> ROOM FOR CHANGE <br />
-<b>Team:</b> 4 Data Scientists (Correlaid), 2 Domain Experts (ROOM FOR CHANGE), 1 Project Coordinator (Correlaid), 1 Project Planner (Correlaid) <br />
+<b>Project Status:</b> Completed  <br />
 <b>Timeline:</b> 4 months (1-10-2023 - 31-1-2024)  <br />
-<b>Skills:</b> Business Intelligence, Data Engineering, Google toolbox [(Looker)](https://cloud.google.com/looker) <br />
 <b>Location:</b> Remote<br />
+<b>Skills:</b> Business Intelligence, Data Engineering, Google toolbox [(Looker)](https://cloud.google.com/looker) <br />
+<b>Team:</b> 4 Data Scientists (Correlaid), 2 Domain Experts (ROOM FOR CHANGE), 1 Project Coordinator (Correlaid), 1 Project Planner (Correlaid) <br />
+
 <b>Project Goals:</b> Streamlined data management; automated reporting mechanisms; functional Looker dashboard that enables monitoring impact
 
 A huge thanks goes out to our volunteers from <b>Correlaid</b>: <br /> Susanne Tak, Johanna Ott, Dipen Chawla, David Lever, Anastasiia Kulakova (project scoping), Mirjam Quaak (coordinator) <br />
