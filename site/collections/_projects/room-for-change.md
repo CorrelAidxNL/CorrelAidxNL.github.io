@@ -26,10 +26,10 @@ The impact was measurable: from 2022 to 2023 the number of participants who have
 
 <b>Partner Organization:</b> ROOM FOR CHANGE <br />
 <b>Project Status:</b> Completed  <br />
-<b>Timeline:</b> 4 months (1-10-2023 - 31-1-2024)  <br />
+<b>Timeline:</b> 4 months (1.10.2023 - 31.1.2024)  <br />
 <b>Location:</b> Remote<br />
 <b>Topic:</b> Streamlined Data Management & Dashboarding for Temporary Housing Impact Monitoring <br />
-<b>Topics:</b> Data management / data cleaning / automated reporting / dashboarding
+<b>Skills:</b> Data Management / Data Cleaning / Automated Reporting and Dashboard
 
 A huge thanks goes out to our volunteers: Susanne Tak, Johanna Ott, Dipen Chawla, David Lever, Anastasiia Kulakova (project scoping), Mirjam Quaak (coordinator), Roos Meijer (ROOM FOR CHANGE), Djony Jaegers (ROOM FOR CHANGE) <br />
 
