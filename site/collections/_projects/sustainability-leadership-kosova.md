@@ -19,11 +19,11 @@ With the guidance and insights from the team of SLK, the expertise in the storyt
 ![kosova](/images/kosova.png){: width="1200" height="900"}
 
 # The Impact
-The impact was significant: the findings were presented to the new environmental minister and compelled governmental action to address deforestation in Kosovo. By presenting data in an accessible and visually engaging manner, our volunteers successfully raised public awareness about the urgency of the deforestation crisis. The [#MoseMerrMalin](https://www.slkosova.org/mosemerrmalin) campaign, born from this collaboration, encouraged citizens, businesses, and the government to protect and restore Kosovo's forests. This initiative aims to grow the economy, secure jobs, ensure clean air, and foster a thriving natural environment, encouraging collective responsibility and decisive action.
+The impact was significant: the findings were presented to the new environmental minister and compelled governmental action to address deforestation in Kosovo. By presenting data in an accessible and visually engaging manner, our volunteers successfully raised awareness about the urgency of the deforestation crisis. The [#MoseMerrMalin](https://www.slkosova.org/mosemerrmalin) campaign, born from this collaboration, encouraged citizens, businesses, and the government to protect and restore Kosovo's forests. Additionally, a new collaboration with the United Nations (UN) has been established to help prevent illegal deforestation activities in Kosovo. This initiative aims to grow the economy, secure jobs, ensure clean air, and foster a thriving natural environment, encouraging collective responsibility and decisive action.
 
 > I personally think we have gained confidence to dream and create more ambitious actions.
 
-*- TODO: check who said that - PyData 2022 presentation*
+*- Indira Kartallozi, SLK*
 
 ![kosova](/images/kosova2.gif){: width="1200" height="900"}
 
