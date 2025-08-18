@@ -10,7 +10,7 @@ tags:
 image: /images/ns_logo.png
 ---
 
-After almost twenty online events since our last in-person event — a highly successful healthcare hackathon weekend in February, 2020 — we were extremely excited to organize an [in-person event](https://www.meetup.com/correlaid-netherlands/events/290294620/) again on the 25<sup>th</sup> of January. We continued our tradition of hosting them at [Xebia](https://xebia.com/) in Amsterdam, who generously offered not only the location but also free pizza and drinks.
+After almost twenty online events since our last in-person event — a highly successful healthcare hackathon weekend in February, 2020 — we were extremely excited to organize an in-person event again on the 25<sup>th</sup> of January. We continued our tradition of hosting them at [Xebia](https://xebia.com/) in Amsterdam, who generously offered not only the location but also free pizza and drinks.
 
 We had two fantastic speakers: [Tjebbe Hepkema](https://www.linkedin.com/in/tjebbe-hepkema/) talked about his work at NS on predicting the crowdedness of trains, while [Alexander Beyer](https://www.linkedin.com/in/alexander-gw-beyer/) from [Vox Pop Labs](https://voxpoplabs.com/) talked about using decision intelligence tools in the areas of voting and higher education.
 
