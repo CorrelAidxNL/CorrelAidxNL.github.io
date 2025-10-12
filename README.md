@@ -61,15 +61,21 @@ The basic recipe for making a change is as follows.
 5. Push the changes to origin and merge to master branch.
 6. Check that your changes are visible in the live website.
 
-The most common change you are going to make is adding a new post to the website.
-Here we assume this is a regular blog post, but for other content the process is similar.
-1. In the _site_ folder (note the lack of _), go to the _collections_ folder. 
-   In this example we pick the _\_posts_ section.
-   At the time of writing, the only other option for adding additional basic content is the _\_projects_ section.
-2. Take the latest post file, copy it and rename it in a logical way inline with the file naming convention. 
-3. Adjust the content to fit your post and upload the image files you are using to the _images_ folder.
+To add new contact to the website, you follow the following recipe.
+1. In the _site_ folder (note the lack of _), go to the _collections_ folder.
+   This folder stores the individual pieces of content divided by category.
+   Currently, we are actively using the _\_posts_ section for blog posts
+   and the _\_projects_ section for project descriptions.
+2. Go to the relevant subfolder for the type of content you wish to add.
+   Copy the _template file and rename in logical way.
+   Take care that the new name does not start with an underscore otherwise it is excluded from the website build.
+3. Change the values in the file header ('front matter' in Jekyll lingo) to fit your post and add your post content.
+   Make sure you remove the square brackets used in the template to demark where content is needed.
+   In case of doubt, you can always check the files for existing posts as reference.
+4. Add any image files you are using to the _images_ folder.
 
-Further details about how to add certain standard content should be added here.
+Further details about how to add certain standard content should be added here,
+for example, regarding the preferred sizing of images.
 
 ### General Tips
 
