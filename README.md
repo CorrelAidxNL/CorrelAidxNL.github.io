@@ -12,7 +12,7 @@ In 2022, we decided to reboot the website.
 With the existing codebase being somewhat messy, we decided to start again from scratch.
 The choice to use Jekyll, rather than Hugo, was motivated by its built-in support for website hosting via GitHub.
 Unfortunately it turns out that our choice of template includes some packages that GitHub Pages does not support.
-The list of packages can be found [here](https://pages.github.com/versions/). 
+The list of packages can be found [here](https://pages.github.com/versions.json). 
 The naming of this page is unhelpful, but for things to work automatically, don't use something not on this list.
 At the time of writing, they also do not have a meaningful build error message when using an unsupported package.
 Fortunately there is a way around this which will be explained below.
