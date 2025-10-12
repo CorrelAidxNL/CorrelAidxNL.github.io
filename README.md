@@ -125,7 +125,10 @@ You of course need to clone this repo, and then make sure you can build and run 
 If you want to be able to make more significant changes,
 it might also be good to check out the [codebase](https://github.com/CloudCannon/vonge-jekyll-bookshop-template) for the theme we are using.
 
-An alternative approach to installing involved the following and is included here in case of further assistance to new users.
+A previous developer of the website followed a different approach to installation.
+It is included below in case it is useful to some new users, but has not been road-tested.
+Accordingly, it is recommended to follow the instructions above, 
+with those below provided for completeness in case of use to some users.
 
 ```bash
 $ npm install
