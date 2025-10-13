@@ -12,7 +12,7 @@ In 2022, we decided to reboot the website.
 With the existing codebase being somewhat messy, we decided to start again from scratch.
 The choice to use Jekyll, rather than Hugo, was motivated by its built-in support for website hosting via GitHub.
 Unfortunately it turns out that our choice of template includes some packages that GitHub Pages does not support.
-The list of packages can be found [here](https://pages.github.com/versions/). 
+The list of packages can be found [here](https://pages.github.com/versions.json). 
 The naming of this page is unhelpful, but for things to work automatically, don't use something not on this list.
 At the time of writing, they also do not have a meaningful build error message when using an unsupported package.
 Fortunately there is a way around this which will be explained below.
@@ -38,6 +38,25 @@ this approach allows us to work with templates, but all pages are generated upfr
 We are using a free Jekyll template made by [Cloud Cannon](https://cloudcannon.com/).
 However, we are not using their interface or services to maintain the website.
 
+### General Logic
+
+Currently, the content of our website falls into three main categories.
+- **Pages**. Here we define custom pages specifically, e.g. the about page.
+  When adding a new page, its inclusion in the overall website navigation (to make it findable) needs to be implemented.
+  For this reason, adding a page is somewhat more involved than adding other type of content.
+  NB: many pages are created automatically on-the-fly when adding other types of content.
+- **Projects**. Project posts are meant to be short standardised descriptions of our projects.
+  Adding a project will include it in our Project page (and also initially on our homepage)
+  and create a new page for the project.
+  Note that longer in-depth posts about projects should be done as a Post in addition to a shorter Project (post).
+  The idea of this content section is to have a short description of every project.
+- **Posts**. Posts are rather free-form and can be on any topic.
+  A typical blog post could be a deep dive into a project or a personal CorrelAid NL journey of a volunteer.
+  Adding a (blog) post will include it on our Blog page (and also initially on our homepage)
+  and create a new page for the post.
+
+## Technical Instructions
+
 ### Updating the Website
 
 If it is your first time updating the website, please first check the section _Getting Started_ below.
@@ -61,15 +80,21 @@ The basic recipe for making a change is as follows.
 5. Push the changes to origin and merge to master branch.
 6. Check that your changes are visible in the live website.
 
-The most common change you are going to make is adding a new post to the website.
-Here we assume this is a regular blog post, but for other content the process is similar.
-1. In the _site_ folder (note the lack of _), go to the _collections_ folder. 
-   In this example we pick the _\_posts_ section.
-   At the time of writing, the only other option for adding additional basic content is the _\_projects_ section.
-2. Take the latest post file, copy it and rename it in a logical way inline with the file naming convention. 
-3. Adjust the content to fit your post and upload the image files you are using to the _images_ folder.
+To add new contact to the website, you follow the following recipe.
+1. In the _site_ folder (note the lack of _), go to the _collections_ folder.
+   This folder stores the individual pieces of content divided by category.
+   Currently, we are actively using the _\_posts_ section for blog posts
+   and the _\_projects_ section for project descriptions.
+2. Go to the relevant subfolder for the type of content you wish to add.
+   Copy the _template file and rename in logical way.
+   Take care that the new name does not start with an underscore otherwise it is excluded from the website build.
+3. Change the values in the file header ('front matter' in Jekyll lingo) to fit your post and add your post content.
+   Make sure you remove the square brackets used in the template to demark where content is needed.
+   In case of doubt, you can always check the files for existing posts as reference.
+4. Add any image files you are using to the _images_ folder.
 
-Further details about how to add certain standard content should be added here.
+Further details about how to add certain standard content should be added here,
+for example, regarding the preferred sizing of images.
 
 ### General Tips
 
@@ -125,7 +150,10 @@ You of course need to clone this repo, and then make sure you can build and run 
 If you want to be able to make more significant changes,
 it might also be good to check out the [codebase](https://github.com/CloudCannon/vonge-jekyll-bookshop-template) for the theme we are using.
 
-An alternative approach to installing involved the following and is included here in case of further assistance to new users.
+A previous developer of the website followed a different approach to installation.
+It is included below in case it is useful to some new users, but has not been road-tested.
+Accordingly, it is recommended to follow the instructions above, 
+with those below provided for completeness in case of use to some users.
 
 ```bash
 $ npm install
