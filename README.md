@@ -38,6 +38,25 @@ this approach allows us to work with templates, but all pages are generated upfr
 We are using a free Jekyll template made by [Cloud Cannon](https://cloudcannon.com/).
 However, we are not using their interface or services to maintain the website.
 
+### General Logic
+
+Currently, the content of our website falls into three main categories.
+- **Pages**. Here we define custom pages specifically, e.g. the about page.
+  When adding a new page, its inclusion in the overall website navigation (to make it findable) needs to be implemented.
+  For this reason, adding a page is somewhat more involved than adding other type of content.
+  NB: many pages are created automatically on-the-fly when adding other types of content.
+- **Projects**. Project posts are meant to be short standardised descriptions of our projects.
+  Adding a project will include it in our Project page (and also initially on our homepage)
+  and create a new page for the project.
+  Note that longer in-depth posts about projects should be done as a Post in addition to a shorter Project (post).
+  The idea of this content section is to have a short description of every project.
+- **Posts**. Posts are rather free-form and can be on any topic.
+  A typical blog post could be a deep dive into a project or a personal CorrelAid NL journey of a volunteer.
+  Adding a (blog) post will include it on our Blog page (and also initially on our homepage)
+  and create a new page for the post.
+
+## Technical Instructions
+
 ### Updating the Website
 
 If it is your first time updating the website, please first check the section _Getting Started_ below.
