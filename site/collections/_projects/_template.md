@@ -15,4 +15,7 @@ image: [relative link (from the 'site' folder) to an image file for the project]
 [text about outcome and future plans in Markdown format]
 
 ## Participants
-[text about project participants]
+[optional section with text about project participants]
+
+## Learn More
+[optional section for a link to an in-depth blog post]
