@@ -109,8 +109,9 @@
     font-weight: 700;
 
     a {
-      &:hover {
         color: $text-color;
+      &:hover {
+        color: $primary-color;
       }
     }
 
