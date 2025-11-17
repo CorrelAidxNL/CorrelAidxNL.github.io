@@ -94,11 +94,6 @@ ___
 
 _The volunteer team and CorrelAidNL would like to thank Sensing Clues for the inspiring collaboration and for the fruitful exchange. We really enjoyed meeting one of the field partners and hearing their enthusiastic response to our project. It was great to make a meaningful contribution! CorrelAidNL would like to thank their wonderful volunteers, who dedicate their time and effort to a good cause, thank you for making a difference!_
 
-As we continue growing our community we continue to take on more and more projects with Dutch as well as international NGOs. Read about our completed and ongoing projects on our site: [projects](https://correlaid.nl/projects/)
-
-If you want to know more about Correlaid [drop us a message](https://correlaid.nl/contact/).
-
-
 **Volunteers**: Everton Lima, Fiona Gallagher, Inês Veríssimo, Mitchell Boer, Davide Alboresi, Maria Bader
 
 **Sensing Clues**: Melanie Arp, Jan-Kees Schakel, Menno Valkenburg
