@@ -8,7 +8,7 @@ tags:
   - Sensing Clues
   - R
   - shiny
-image: /images/2025_sensing_clues_logo.jpeg
+image: /images/2025_sensing_clues_logo_2.png
 ---
 
 *This blog post was written by Maria Bader.*
