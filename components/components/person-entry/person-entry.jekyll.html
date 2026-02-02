@@ -1,0 +1,22 @@
+<h3>{{ include.person.fullname }} | {{ include.person.role }}</h3>
+<div class="row">
+<p>
+{% if person.image %}
+    <img src="{{ include.person.image }}" alt="{{ include.person.displayname }}" style="float: left; width: 220px; height: 200px; padding-right: 20px;">
+{% endif %}
+{{ include.person.content }}
+{% if person.email or person.linkedin %}
+    <br>Contact:
+    {% if person.email %}
+        <a href="mailto:{{ include.person.email }} ">{{ include.person.email}} </a>
+    {% endif %}
+    {% if person.email and person.linkedin %}
+    ,
+    {% endif %}
+    {% if person.linkedin %}
+        <a class="ion ion-logo-linkedin" href="https://www.linkedin.com/in/{{ include.person.linkedin }}/"></a>
+    {% endif %}
+    .
+{% endif %}
+</p>
+</div>
