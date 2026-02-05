@@ -1,0 +1,16 @@
+<!-- begin people section -->
+<section class="section-people" id="people">
+  <div class="container">
+      <div class="page animate">
+          {% if include.show_people %}
+            {% assign sorted_people = site.people | sort: 'order' %}
+            {% for person in sorted_people %}
+              {% if person.crew %}
+                {% bookshop person-entry person=person %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+      </div>
+  </div>
+</section>
+<!-- end people section -->

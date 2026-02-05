@@ -1,0 +1,34 @@
+<h3>{{ include.person.fullname }} | {{ include.person.role }}</h3>
+<div class="row">
+<p>
+{% if person.image %}
+    <img src="{{ include.person.image }}" alt="{{ include.person.displayname }}" style="float: left; width: 220px; height: 200px; padding-right: 20px;">
+{% endif %}
+{{ include.person.content }}
+{% if person.email or person.linkedin or person.website or person.bsky %}
+    <br>Contact:
+    {%- if person.email -%}
+        <a href="mailto:{{ include.person.email }} ">{{ include.person.email }}</a>
+    {%- endif -%}
+    {%- if person.website -%}
+        {%- if person.email -%}
+            ,&nbsp;
+        {%- endif -%}
+        <a href="{{ include.person.website }}">Website</a>
+    {%- endif -%}
+    {%- if person.bsky -%}
+        {%- if person.email or person.website -%}
+            ,&nbsp;
+        {%- endif -%}
+        <a class="ion ion-logo-twitter" href="https://bsky.app/profile/{{ include.person.bsky }}"></a>
+    {%- endif -%}
+    {%- if person.linkedin -%}
+        {%- if person.email or person.website or person.bsky -%}
+            ,&nbsp;
+        {%- endif -%}
+        <a class="ion ion-logo-linkedin" href="https://www.linkedin.com/in/{{ include.person.linkedin }}/"></a>
+    {%- endif -%}
+    .
+{% endif %}
+</p>
+</div>

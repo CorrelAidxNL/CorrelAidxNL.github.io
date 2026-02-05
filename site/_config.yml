@@ -45,6 +45,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
+  people:
+    output: false
+    permalink: /people/:slug
 
 cloudcannon:
   collections:
@@ -53,6 +56,9 @@ cloudcannon:
     projects:
       _icon: 'work_outline'
       _subtext_key: subtitle
+    people:
+      _icon: 'wysiwyg'
+      _subtext_key: fullname
     testimonials:
       _icon: 'format_quote'
       _subtext_key: position

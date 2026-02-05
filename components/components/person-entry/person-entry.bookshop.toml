@@ -1,0 +1,13 @@
+[component]
+structures = []
+label = "Person Entry"
+description = "Person card used for inline people lists"
+icon = "wysiwyg"
+tags = []
+
+[props.person]
+fullname = "Hello World"
+displayname = "Lorem Ipsum"
+role = "Volunteer"
+image = "https://placekitten.com/800/400"
+url = "/"
