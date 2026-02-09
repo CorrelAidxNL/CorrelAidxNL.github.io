@@ -6,7 +6,7 @@
 {% endif %}
 {{ include.person.content }}
 {% if person.email or person.linkedin or person.website or person.bsky %}
-    <br>Contact:
+    <br>Contact:&nbsp;
     {%- if person.email -%}
         <a href="mailto:{{ include.person.email }} ">{{ include.person.email }}</a>
     {%- endif -%}
