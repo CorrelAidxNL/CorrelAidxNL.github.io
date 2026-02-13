@@ -1,0 +1,12 @@
+[component]
+structures = []
+label = "Person Card"
+description = "Person card used for people lists"
+icon = "wysiwyg"
+tags = []
+
+[props.person]
+fullname = "FirstName SecondName"
+role = "Role at CA NL"
+image = "https://placekitten.com/800/400"
+url = "/"

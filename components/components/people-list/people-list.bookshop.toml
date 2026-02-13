@@ -1,0 +1,9 @@
+[component]
+structures = [ "content_blocks" ]
+label = "People List"
+description = "Lists all of the site's people"
+icon = "wysiwyg"
+tags = ["Collections"]
+
+[props]
+show_people = true
