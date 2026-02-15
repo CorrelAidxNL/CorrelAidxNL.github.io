@@ -1,7 +1,7 @@
 {% assign c = "c-person-card" %}
 <article class="{{c}} col col-4 col-d-6 col-t-12">
   <div class="{{c}}__content">
-    <a href="javascript:void(0)" class="{{c}}__image">
+    <a href="{{ include.person.url }}" class="{{c}}__image">
       <img loading="lazy" src="{{ include.person.image }}" alt="{{ include.person.displayname }}">
     </a>
     <div class="{{c}}__info">
