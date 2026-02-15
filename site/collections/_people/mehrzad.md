@@ -2,7 +2,7 @@
 displayname: Mehrzad
 fullname: Mehrzad Karami
 role: NPO Engagement
-image: ../images/mehrzad.jpg
+image: /images/mehrzad.jpg
 email: mehrzad@correlaid.nl
 linkedin: mehrzad-karami
 crew: true

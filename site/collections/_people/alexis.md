@@ -2,7 +2,7 @@
 displayname: Alexis
 fullname: Alexis Gillett
 role: All-round Fixer
-image: ../images/alexis.jpg
+image: /images/alexis.jpg
 email: alexis@correlaid.nl
 linkedin: alexisgillett
 crew: true

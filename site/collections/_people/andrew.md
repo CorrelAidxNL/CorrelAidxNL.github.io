@@ -2,7 +2,7 @@
 displayname: Andrew
 fullname: Andrew Sutjahjo
 role: Chairman
-image: ../images/andrew.jpg
+image: /images/andrew.jpg
 email: andrew@correlaid.nl
 linkedin: sutjahjo
 crew: true

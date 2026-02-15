@@ -2,7 +2,7 @@
 displayname: Maria
 fullname: Maria Bader
 role: Technical Lead
-image: ../images/maria_bader.jpg
+image: /images/maria_bader.jpg
 email: mariabader@correlaid.nl
 linkedin: mkmbader
 crew: true

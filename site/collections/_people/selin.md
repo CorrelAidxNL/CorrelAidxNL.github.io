@@ -2,7 +2,7 @@
 displayname: Selin
 fullname: Selin Topel
 role: NPO Engagement
-image: ../images/selin.jpg
+image: /images/selin.jpg
 email: selin@correlaid.nl
 linkedin: selin-topel-902794124
 crew: true

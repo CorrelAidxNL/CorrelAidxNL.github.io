@@ -2,7 +2,7 @@
 displayname: Winnie
 fullname: Winnie
 role: Team
-image: ../images/winnie.jpg
+image: /images/winnie.jpg
 email: winnie@correlaid.nl
 crew: true
 order: 7
