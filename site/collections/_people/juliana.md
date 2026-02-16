@@ -3,7 +3,7 @@ displayname: Juliana
 fullname: Juliana Franco Mendes
 role: Community Manager
 image: /images/juliana.png
-email: j.mendes@correlaid.org
+email: juliana@correlaid.nl
 linkedin: julianafrmendes
 crew: true
 order: 4
