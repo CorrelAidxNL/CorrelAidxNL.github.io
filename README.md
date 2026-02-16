@@ -20,6 +20,9 @@ The sharper reader may now realise that the original rationale for using Jekyll 
 
 ### How It Works
 
+For a more in-depth discussion on how the website works under the hood, 
+see the dedicated [framework](./documentation/framework.md) document.
+
 Our website is hosted with [GitHub Pages](https://pages.github.com/).
 It allows us to host a website for free for our [GitHub organisation](https://github.com/CorrelAidxNL).
 A special [.io repo](https://github.com/CorrelAidxNL/CorrelAidxNL.github.io) is made.
@@ -54,6 +57,8 @@ Currently, the content of our website falls into three main categories.
   A typical blog post could be a deep dive into a project or a personal CorrelAid NL journey of a volunteer.
   Adding a (blog) post will include it on our Blog page (and also initially on our homepage)
   and create a new page for the post.
+- **People**. For each CA NL volunteer, we can make an md file containing their bio (and link to an image).
+  The code base then automatically uses the details in these files to add their profiles to the website.
 
 ## Technical Instructions
 
