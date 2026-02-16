@@ -1,7 +1,7 @@
 ---
 displayname: Maria
 fullname: Maria Bader
-role: Technical Lead
+role: NPO Engagement
 image: /images/maria_bader.jpg
 email: mariabader@correlaid.nl
 linkedin: mkmbader
