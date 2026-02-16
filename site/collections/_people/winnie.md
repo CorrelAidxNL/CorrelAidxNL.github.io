@@ -5,7 +5,7 @@ role: Team
 image: /images/winnie.jpg
 email: winnie@correlaid.nl
 crew: true
-order: 7
+order: 5
 ---
 Winnie has been with CorrelAid as a volunteer for approximately 2 years.
 After her Masters in financial econometrics she’s had a somewhat rocky journey but her love for data, 

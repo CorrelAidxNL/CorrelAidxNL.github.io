@@ -6,7 +6,7 @@ image: /images/selin.jpg
 email: selin@correlaid.nl
 linkedin: selin-topel-902794124
 crew: true
-order: 4
+order: 6
 ---
 Selin joined CorrelAid Nederland because it brings two of her favorite things together: 
 working with data, and volunteering for organization whose efforts advance social good. 

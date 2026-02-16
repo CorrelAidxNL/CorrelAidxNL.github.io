@@ -6,7 +6,7 @@ image: /images/MirjamQuaak.jpg
 email: mirjam@correlaid.nl
 linkedin: mirjam-quaak-823b50113
 crew: true
-order: 6
+order: 7
 ---
 Mirjam discovered CorrelAid while searching for ways to make a positive impact with her (data) skills. 
 With a background in Neurosciences and Artificial Intelligence, 

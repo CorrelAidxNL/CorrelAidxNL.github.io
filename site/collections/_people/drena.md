@@ -5,7 +5,7 @@ role: Team
 image: /images/DrenaMiftari.jpg
 email: drena@correlaid.nl
 crew: true
-order: 5
+order: 6
 ---
 Drena joined CorrelAid in 2020 with an aim to help impact-driven organisations make better use of their data.
 She has a graduate degree in data science, an undergraduate degree in economics, 
