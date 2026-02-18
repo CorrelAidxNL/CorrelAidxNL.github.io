@@ -5,7 +5,7 @@ role: Team
 image: /images/MirjamQuaak.jpg
 email: mirjam@correlaid.nl
 linkedin: mirjam-quaak-823b50113
-crew: true
+coreteam: true
 order: 9
 ---
 Mirjam discovered CorrelAid while searching for ways to make a positive impact with her (data) skills. 

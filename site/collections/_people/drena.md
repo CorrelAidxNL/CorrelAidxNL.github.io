@@ -4,7 +4,7 @@ fullname: Drena Miftari
 role: Team
 image: /images/DrenaMiftari.jpg
 email: drena@correlaid.nl
-crew: true
+coreteam: true
 order: 8
 ---
 Drena joined CorrelAid in 2020 with an aim to help impact-driven organisations make better use of their data.

@@ -5,7 +5,7 @@ role: Community Manager
 image: /images/juliana.png
 email: juliana@correlaid.nl
 linkedin: julianafrmendes
-crew: true
+coreteam: true
 order: 4
 ---
 Her professional journey has been shaped by a deep interest in understanding human behavior through data, 

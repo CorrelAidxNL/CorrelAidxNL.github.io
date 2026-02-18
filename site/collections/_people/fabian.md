@@ -7,7 +7,7 @@ email: fabian@correlaid.nl
 website: https://fabiandablander.com/
 bsky: fdabl.bsky.social
 linkedin: fabian-dablander
-crew: true
+coreteam: true
 order: 11
 ---
 Fabian is a postdoctoral researcher at SEVEN, the interdisciplinary climate institute of the University of Amsterdam.

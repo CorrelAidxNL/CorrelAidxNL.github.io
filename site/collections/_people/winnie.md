@@ -4,7 +4,7 @@ fullname: Winnie
 role: Team
 image: /images/winnie.jpg
 email: winnie@correlaid.nl
-crew: true
+coreteam: true
 order: 5
 ---
 Winnie has been with CorrelAid as a volunteer for approximately 2 years.

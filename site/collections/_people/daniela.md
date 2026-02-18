@@ -5,7 +5,7 @@ role: Crew
 image: /images/daniela.jpg
 email: daniela@correlaid.nl
 linkedin: danielanegoita
-crew: true
+coreteam: true
 order: 6
 ---
 Daniela completed a Master’s degree in Social Research in Italy 

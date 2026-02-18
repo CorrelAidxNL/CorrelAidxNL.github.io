@@ -5,7 +5,7 @@ role: Chairman
 image: /images/andrew.jpg
 email: andrew@correlaid.nl
 linkedin: sutjahjo
-crew: true
+coreteam: true
 order: 10
 ---
 During his masters in Neuroscience, Andrew started up an NGO and tried to build an orphanage in Kenya.

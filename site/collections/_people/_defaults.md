@@ -5,4 +5,5 @@ role:
 image: 
 email:
 linkedin:
+coreteam: false
 ---

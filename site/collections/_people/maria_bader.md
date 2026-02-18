@@ -5,7 +5,7 @@ role: NPO Engagement
 image: /images/maria_bader.jpg
 email: mariabader@correlaid.nl
 linkedin: mkmbader
-crew: true
+coreteam: true
 order: 3
 ---
 Maria got involved with CorrelAid because she wants to make a meaningful impact with her data skills. 

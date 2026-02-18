@@ -5,7 +5,7 @@ role: NPO Engagement
 image: /images/selin.jpg
 email: selin@correlaid.nl
 linkedin: selin-topel-902794124
-crew: true
+coreteam: true
 order: 7
 ---
 Selin joined CorrelAid Nederland because it brings two of her favorite things together: 
