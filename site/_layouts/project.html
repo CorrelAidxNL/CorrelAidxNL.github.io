@@ -10,6 +10,19 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="row">
+
+  {% if page.next.url %}
+  <div class="project__navigation animate">
+    <a class="project__prev" href="{{page.next.url}}">
+      <div class="project__box">
+        <span class="project__nav__info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previous Project</span>
+        <h2 class="project__nav__title"><i class="ion ion-md-arrow-round-back arrow-left"></i>{{page.next.title}}</h2>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
   {% if page.previous.url %}
   <div class="project__navigation animate">
     <a class="project__prev" href="{{page.previous.url}}">
@@ -20,6 +33,9 @@ layout: default
     </a>
   </div>
   {% endif %}
+
+  </div>
+
 
 </div>
 
