@@ -10,7 +10,11 @@
       </div>
       <div class="{{c}}__info-wrap">
         {% if include.person.role %}
-        <div class="{{c}}__subtitle">{{ include.person.role }}</div>
+          {% if person.alumnus %}
+            <div class="{{c}}__subtitle">{{ include.person.role }} (alumnus)</div>
+          {% else %}
+            <div class="{{c}}__subtitle">{{ include.person.role }}</div>
+          {% endif %}
         {% endif %}
       </div>
     </div>

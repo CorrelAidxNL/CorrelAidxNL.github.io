@@ -6,7 +6,9 @@
             {% assign sorted_people = site.people | sort: 'order' %}
             {% for person in sorted_people %}
               {% if person.coreteam %}
-                {% bookshop person-entry person=person %}
+                {% unless person.alumnus %}
+                    {% bookshop person-entry person=person %}
+                {% endunless %}
               {% endif %}
             {% endfor %}
           {% endif %}

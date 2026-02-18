@@ -8,8 +8,14 @@ layout: default
 
   {% assign person = page %}
 
+
+
   <div class="container">
       <div class="page animate">
+          {% if person.alumnus %}
+            <p><b>Alumnus Profile</b><br />
+               This profile concerns someone previously active with CorrelAid Netherlands.</p>
+          {% endif %}
          {% bookshop person-entry person=person %}
       </div>
   </div>
