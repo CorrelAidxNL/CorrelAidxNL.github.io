@@ -1,7 +1,7 @@
 ---
 displayname: Mirjam
 fullname: Mirjam Quaak
-role: Team
+role: Crew
 image: /images/MirjamQuaak.jpg
 email: mirjam@correlaid.nl
 linkedin: mirjam-quaak-823b50113

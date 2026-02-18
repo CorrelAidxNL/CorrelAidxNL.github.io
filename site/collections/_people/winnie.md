@@ -1,7 +1,7 @@
 ---
 displayname: Winnie
 fullname: Winnie
-role: Team
+role: Crew
 image: /images/winnie.jpg
 email: winnie@correlaid.nl
 coreteam: true

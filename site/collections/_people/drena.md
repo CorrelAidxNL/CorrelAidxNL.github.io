@@ -1,7 +1,7 @@
 ---
 displayname: Drena
 fullname: Drena Miftari
-role: Team
+role: Crew
 image: /images/DrenaMiftari.jpg
 email: drena@correlaid.nl
 coreteam: true
