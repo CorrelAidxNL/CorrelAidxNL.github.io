@@ -1,7 +1,7 @@
 ---
 displayname: Vlad
 fullname: Vladimir Smirnov
-role: Technical lead
+role: NPO Engagement
 image: /images/vlad.jpg
 email: vlad@correlaid.nl
 linkedin: v--smirnov
