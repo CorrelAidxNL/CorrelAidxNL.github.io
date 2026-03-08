@@ -1,5 +1,5 @@
 ---
-date: 2025-10-12 12:00:00
+date: 2026-03-08 12:00:00
 title: Tracking Landscape Vitality in Africa and Europe using Geo-Spatial Data
 description: Helping Sensing Clues field partners analyze vegetation health
 author: Maria Bader
