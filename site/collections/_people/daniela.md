@@ -6,7 +6,7 @@ image: /images/daniela.jpg
 email: daniela@correlaid.nl
 linkedin: danielanegoita
 coreteam: true
-order: 6
+order: 7
 ---
 Daniela completed a Master’s degree in Social Research in Italy 
 and currently works as a data analyst in the financial sector 

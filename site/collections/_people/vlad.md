@@ -6,7 +6,7 @@ image: /images/vlad.jpg
 email: vlad@correlaid.nl
 linkedin: v--smirnov
 coreteam: true
-order: 7
+order: 8
 ---
 Vladimir moved to the Netherlands more than ten years ago to build his career in the energy industry. 
 Since then, he has worked across 3D software, data science, product management, and consulting.

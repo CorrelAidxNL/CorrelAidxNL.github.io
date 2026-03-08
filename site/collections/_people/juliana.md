@@ -6,7 +6,7 @@ image: /images/juliana.png
 email: juliana@correlaid.nl
 linkedin: julianafrmendes
 coreteam: true
-order: 4
+order: 5
 ---
 Her professional journey has been shaped by a deep interest in understanding human behavior through data, 
 identifying business opportunities.

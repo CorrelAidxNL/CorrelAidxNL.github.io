@@ -6,7 +6,7 @@ image: /images/andrew.jpg
 email: andrew@correlaid.nl
 linkedin: sutjahjo
 coreteam: true
-order: 10
+order: 11
 ---
 During his masters in Neuroscience, Andrew started up an NGO and tried to build an orphanage in Kenya.
 Two years in, 

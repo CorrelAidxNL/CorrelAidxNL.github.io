@@ -8,7 +8,7 @@ website: https://fabiandablander.com/
 bsky: fdabl.bsky.social
 linkedin: fabian-dablander
 coreteam: true
-order: 11
+order: 12
 ---
 Fabian is a postdoctoral researcher at SEVEN, the interdisciplinary climate institute of the University of Amsterdam.
 His research lies at the intersection of behavioural science, sustainability, and statistics.
