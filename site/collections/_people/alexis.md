@@ -2,10 +2,10 @@
 displayname: Alexis
 fullname: Alexis Gillett
 role: All-round Fixer
-image: ../images/alexis.jpg
+image: /images/alexis.jpg
 email: alexis@correlaid.nl
 linkedin: alexisgillett
-crew: true
+coreteam: true
 order: 2
 ---
 Alexis got involved with CorrelAid as way to put his existing data (science) and management skills to a positive use.

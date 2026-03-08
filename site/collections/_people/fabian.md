@@ -2,13 +2,13 @@
 displayname: Fabian
 fullname: Fabian Dablander
 role: Secretary
-image: ../images/fabian_dablander.jpg
+image: /images/fabian_dablander.jpg
 email: fabian@correlaid.nl
 website: https://fabiandablander.com/
 bsky: fdabl.bsky.social
 linkedin: fabian-dablander
-crew: true
-order: 9
+coreteam: true
+order: 12
 ---
 Fabian is a postdoctoral researcher at SEVEN, the interdisciplinary climate institute of the University of Amsterdam.
 His research lies at the intersection of behavioural science, sustainability, and statistics.

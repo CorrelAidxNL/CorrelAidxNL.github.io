@@ -459,6 +459,12 @@
 			opacity: 1;
 			transform: translateX(3px);
 		}
+
+        .project__nav__title .arrow-left {
+			opacity: 1;
+			transform: translateX(-3px);
+		}
+
 	}
 }
 
@@ -478,6 +484,13 @@
 
 	.arrow-right {
 		margin-left: 2px;
+		font-size: 30px;
+		opacity: 0;
+		transition: 0.2s linear;
+	}
+
+    .arrow-left {
+		margin-right: 2px;
 		font-size: 30px;
 		opacity: 0;
 		transition: 0.2s linear;

@@ -2,11 +2,12 @@
 displayname: Selin
 fullname: Selin Topel
 role: NPO Engagement
-image: ../images/selin.jpg
+image: /images/selin.jpg
 email: selin@correlaid.nl
 linkedin: selin-topel-902794124
-crew: true
-order: 4
+coreteam: true
+alumnus: true
+order: 7
 ---
 Selin joined CorrelAid Nederland because it brings two of her favorite things together: 
 working with data, and volunteering for organization whose efforts advance social good. 

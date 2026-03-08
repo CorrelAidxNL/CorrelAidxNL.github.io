@@ -8,6 +8,8 @@ menu__settings:
       url: '/about/'
     - title: 'Get Involved'
       url: '/getinvolved/'
+    - title: 'People'
+      url: '/people/'
     - title: 'Projects'
       url: '/projects/'
     - title: 'Blog'

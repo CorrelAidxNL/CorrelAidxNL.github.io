@@ -5,8 +5,10 @@
           {% if include.show_people %}
             {% assign sorted_people = site.people | sort: 'order' %}
             {% for person in sorted_people %}
-              {% if person.crew %}
-                {% bookshop person-entry person=person %}
+              {% if person.coreteam %}
+                {% unless person.alumnus %}
+                    {% bookshop person-entry person=person %}
+                {% endunless %}
               {% endif %}
             {% endfor %}
           {% endif %}

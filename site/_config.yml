@@ -46,7 +46,7 @@ collections:
     output: true
     permalink: /blog/:slug
   people:
-    output: false
+    output: true
     permalink: /people/:slug
 
 cloudcannon:
@@ -58,7 +58,7 @@ cloudcannon:
       _subtext_key: subtitle
     people:
       _icon: 'wysiwyg'
-      _subtext_key: fullname
+      _subtext_key: displayname
     testimonials:
       _icon: 'format_quote'
       _subtext_key: position
@@ -97,6 +97,10 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      type: people
+    values:
+      layout: person
 
 # Tags
 tag_page_dir: tag

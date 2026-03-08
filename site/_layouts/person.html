@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  {% bookshop page-heading title=page.displayname description=page.subtitle %}
+
+  {% assign person = page %}
+
+
+
+  <div class="container">
+      <div class="page animate">
+          {% if person.alumnus %}
+            <p><b>Alumnus Profile</b><br />
+               This profile concerns someone previously active with CorrelAid Netherlands.</p>
+          {% endif %}
+         {% bookshop person-entry person=person %}
+      </div>
+  </div>
+
+  <div class="row">
+
+  {% if page.previous.url %}
+  <div class="project__navigation animate">
+    <a class="project__prev" href="{{page.previous.url}}">
+      <div class="project__box">
+        <span class="project__nav__info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previous Person</span>
+        <h2 class="project__nav__title"><i class="ion ion-md-arrow-round-back arrow-left"></i>{{page.previous.displayname}}</h2>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
+  {% if page.next.url %}
+  <div class="project__navigation animate">
+    <a class="project__prev" href="{{page.next.url}}">
+      <div class="project__box">
+        <span class="project__nav__info">Next Person</span>
+        <h2 class="project__nav__title">{{page.next.displayname}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
+
+  </div>
+
+</div>
+
+{% bookshop
+  newsletter newsletter_title=site.data.newsletter.newsletter_title
+  newsletter_description=site.data.newsletter.newsletter_description
+  newsletter_identifier=site.data.newsletter.newsletter_identifier
+  newsletter_button=site.data.newsletter.newsletter_button
+%}
