@@ -9,3 +9,6 @@ bookshop-live.js
 # PyCharm project files
 /.idea/
 
+# Raw blog images (working copies; renamed copies live in site/images/)
+/Pictures_blog/
+
