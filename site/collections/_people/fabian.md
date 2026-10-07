@@ -10,7 +10,7 @@ linkedin: fabian-dablander
 coreteam: true
 order: 12
 ---
-Fabian is a postdoctoral researcher at SEVEN, the interdisciplinary climate institute of the University of Amsterdam.
+Fabian is an assistant professor at the London School of Economics and Political Science.
 His research lies at the intersection of behavioural science, sustainability, and statistics.
 During his PhD, he worked on Bayesian hypothesis testing, causal inference from observational data,
 and early warning signals of tipping points.
