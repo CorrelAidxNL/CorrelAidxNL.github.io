@@ -3,7 +3,6 @@ displayname: Fabian
 fullname: Fabian Dablander
 role: Secretary
 image: /images/fabian_dablander.jpg
-email: fabian@correlaid.nl
 website: https://fabiandablander.com/
 bsky: fdabl.bsky.social
 linkedin: fabian-dablander
